@@ -1,0 +1,71 @@
+h2,
+p {
+    width: 400px;
+    font-size: 90%;
+    line-height: 1.2em;
+}
+
+h2 {
+    color: #0088dd;
+    border-bottom: 1px solid #0088dd;
+}
+
+p {
+    min-height: 10px;
+    max-height: 30px;
+}
+
+/*.........*/
+p.one {
+    overflow: hidden;
+}
+
+p.two {
+    overflow: scroll;
+}
+
+/*....border width.....*/
+p.one {
+    border-width: 2px;
+}
+
+p.two {
+    border-width: thick;
+}
+
+p.three {
+    border-width: 1px 4px 12px 4px;
+}
+
+p.one {
+    border-style: solid;
+}
+
+/*...border style......*/
+p.two {
+    border-style: dotted;
+}
+
+p.three {
+    border-style: dashed;
+}
+
+p.four {
+    border-style: double;
+}
+
+p.five {
+    border-style: groove;
+}
+
+p.six {
+    border-style: ridge;
+}
+
+p.seven {
+    border-style: inset;
+}
+
+p.eight {
+    border-style: outset;
+}

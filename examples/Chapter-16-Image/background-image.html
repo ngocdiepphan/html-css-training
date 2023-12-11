@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Repeat Examples</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            color: rgb(23, 22, 22);
+        }
+
+        .section {
+            height: 50vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5em;
+        }
+
+        /* Repeat */
+        .repeat {
+            background-image: url("images/backg.png");
+            background-repeat: repeat;
+        }
+
+        /* Repeat-X */
+        .repeat-x {
+            background-image: url("images/images/backg.png");
+            background-repeat: repeat-x;
+        }
+
+        /* No Repeat */
+        .no-repeat {
+            background-image: url("images/images/backg.png");
+            background-repeat: no-repeat;
+        }
+
+        /* Fixed Background */
+        .fixed {
+            background-image: url("images/backg.png");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        /* Scroll Background */
+        .scroll {
+            background-image: url("images/backg.png");
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="section repeat">
+        <h1>Background Repeat: repeat</h1>
+        <br/>
+        <p>This background image will repeat both horizontally and vertically.</p>
+    </div>
+
+    <div class="section repeat-x">
+        <h1>Background Repeat: repeat-x</h1><br/>
+        <p>This background image will repeat only horizontally.</p>
+    </div>
+
+    <div class="section no-repeat">
+        <h1>Background Repeat: no-repeat</h1><br/>
+        <p>This background image will not repeat.</p>
+    </div>
+
+    <div class="section fixed">
+        <h1>Background Attachment: fixed</h1><br/>
+        <p>This background image will stay fixed as you scroll.</p>
+    </div>
+
+    <div class="section scroll">
+        <h1>Background Attachment: scroll</h1>
+        <p>This background image will scroll with the content.</p>
+    </div>
+
+</body>
+
+</html>

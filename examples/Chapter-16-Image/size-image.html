@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>controlling size of image in css</title>
+    <style>
+        div.one {
+            margin-bottom: 200px;
+        }
+
+        img.large {
+            width: 500px;
+            height: 500px;
+        }
+
+        img.medium {
+            width: 250px;
+            height: 250px;
+        }
+
+        img.smail {
+            width: 100px;
+            height: 100px;
+        }
+
+        img.align-left {
+            float: left;
+            margin-right: 10px;
+        }
+
+        img.align-right {
+            float: right;
+            margin-left: 10px;
+        }
+
+        img.medium {
+            width: 250px;
+            height: 250px;
+        }
+
+        img.center {
+            display: block;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="one">
+        <img src="images/tulip.png" class="large" alt="Tulip" />
+        <img src="images/tulip.png" class="medium" alt="Tulip" />
+        <img src="images/tulip.png" class="smail" alt="Tulip" />
+        <hr />
+    </div>
+
+    <div class="one">
+        <h1>Aligning images usinh css</h1>
+        <p>
+            <img src="images/tulip.png" class="align-left medium" />
+            <b><i>Tulip</i> also known as tulips, scientifically known as Tulipa, are a genus of flowering plants in the
+                Liliaceae family. Tulips originate from the Middle East and are now grown all over the world. Especially
+                famous in the Netherlands for its beautiful tulip fields.</b>
+
+        <p>
+            <img src="images/tulip.png" class="center medium" />
+            Some magnolias, such as <i>Magnolia stellata</i>
+            and <i>Magnolia soulangeana</i>, flower quite
+            early in the spring before the leaves open...
+        </p>
+
+    </div>
+
+    <hr />
+    <div class="one">
+        <h1>Centering images using CSS</h1>
+        <p><img src="images/tulip.png" alt="Tulip" class="center medium" />
+            <b><i>Magnolia</i></b> is a large genus that contains over 200 flowering plant species. It is named after
+            French botanist Pierre Magnol and, having evolved before bees appeared, the flowers were developed to
+            encourage pollination by beetle.
+        </p>
+    </div>
+</body>
+
+</html>

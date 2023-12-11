@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>styling fieldset and legend</title>
+        <style>
+            fieldset {
+                width: 350px;
+                border: 1px solid #641c1c;
+                border-radius: 10px;
+                padding: 20px;
+                text-align: left;
+            }
+
+            legend {
+                background-color: #c3f0b7;
+                border: 3px solid #e21212;
+                border-radius: 10px;
+                padding: 10px 20px;
+                text-align: left;
+                text-transform: uppercase;
+            }
+
+            label {
+                margin-bottom: 10px;
+            }
+
+            #one {
+                background-color: #c3f0b7;
+                border: 3px solid #e21212;
+                border-radius: 10px;
+                padding: 8px 15px;
+                width: 100px;
+                float: right;
+            }
+
+            .two {
+                background-color: rgb(247, 191, 176);
+                padding: 5px 10px;
+                border: 3px solid #2f35e0;
+                border-radius: 15px;
+                width: 90px;
+                float: left;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="https://translate.google.com/?hl=vi" method="post">
+            <fieldset>
+                <legend>NEWSLETTER</legend>
+                <label> Name:
+                    <input type="text" name="name">
+                </label>
+                <br/>
+                <label>Email:
+                    <input type="text" name="email">
+                </label>
+                <br/>
+                <label>
+                    <input type="submit" id="one" value="Subscribe">
+                </label>
+                <br/>
+                <label>Gender:
+                    <input type="radio" name="genre" value="m">M
+                    <input type="radio" name="genre" value="f">F
+                </label>
+                <br/>
+                <label>
+                    Favorite: 
+                    <input type="checkbox" name="service" value="read"/>Read book
+                    <input type="checkbox" name="service" value="swim"/>Swimming
+                    <input type="checkbox" name="service" value="music"/>Listen music
+                </label>
+                <br/>
+                <label>
+                    <input type="submit" class="two" value="Register">
+                </label>
+            </fieldset>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>border spacing-collapse</title>
+    <style>
+        td {
+            background-color: rgb(138, 238, 205);
+            padding: 40px;
+            border: 2px solid #e74747;
+            font-size: 50px;
+
+
+        }
+
+
+        table.one {
+            border-spacing: 10px 20px;
+            
+        }
+
+        table.two {
+            border-collapse: collapse;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <table class="one">
+        <tr>
+            <td>1</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+    </table>
+
+
+
+    <table class="two">
+        <tr>
+            <td>1</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+    </table>
+</body>
+
+</html>

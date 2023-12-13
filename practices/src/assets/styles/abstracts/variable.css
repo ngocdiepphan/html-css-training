@@ -1,0 +1,21 @@
+ :root {
+  --light-text-color: #fff;
+  --dark-background-color: #26335d;
+  --primary-text-color: #8d5cf6;
+  --primary-color: #8d5cf6;
+  --second-text-color: #737373;
+
+  /*   #SET TYPOGRAPHY */
+  --font-size-xxsm: 12px;
+  --font-size-xsm: 16px;
+  --font-size-sm: 20px;
+  --font-size-m: 24px;
+  --font-size-lg: 28px;
+  --font-size-xlg: 32px;
+  --font-size-xxlg: 36px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

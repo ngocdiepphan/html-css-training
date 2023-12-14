@@ -1,65 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practice-one School Genic</title>
-    <link rel="stylesheet" href="../src/assets/styles/main.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800&family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700&family=Nunito:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <!-- <link rel="stylesheet" href="./assets/fonts/font.css"> -->
+    <!-- <link rel="stylesheet" href="./assets/styles/base/index.css">
+    <link rel="stylesheet" href="./assets/styles/layouts/"> -->
+    <link rel="stylesheet" href="./assets/styles/main.css">
+link
 </head>
+
 <body>
     <div class="container"></div>
     <!--START HEADER-->
-    <div class="header-section">
-        <h3 class="header-section__brand">BrandName</h3>
-        <nav class="nav-list__nav">
-            <ul class="nav-list">
-                <li class="nav-list_item">
-                    <a href="#"a>Home</li>
-                <li class="nav-list_item">
-                    <a href="#"a>Product</li>
-                <li class="nav-list_item">
-                    <a href="#"a>Pricing</li>
-                <li class="nav-list_item">
-                    <a href="#"a>Contact</li></li>
-            </ul>
-            
-        </nav>
 
-        <nav class="nav-list__control">
-            <ul class="nav-list">
-                <li class="nav-list_item">
-                    <a href="#"a>Login</li>
-                <li class="nav-list_item">
-                    <a href="#">
-                        <button class="btn primary-color">
-                            JOIN US
-                            <img src="../src/assets/images/svg/icn arrow-right .icn-xs.svg" alt="arrow-right"></svg>
-                        </button>
-                    </a>
-                </li>
-                
-            </ul>
-            
-        </nav>
-    </div>
-    
-    <div class="header-hero">
-        <div class="header-hero__content">
-            <h5 class="header-hero__header-tag">Join Us</h5>
-            <h1 class="header-hero__header-sec">25+ STUDENTS TRUST US</h1>
-            <h4 class="header-hero__sub-headline">Our goal is to make online 
-                education work for everyone</h4>
-            <div class="button cta">
-                <button class="button cta__sec-color">Join Us</button>
-                <button class="button cta__sec">Learn More</button>
+    <header class="header">
+        <div class="header-wrapper">
+            <a href="#">
+                <h1 class="name">BrandName</h1>
+            </a>
+            <nav class="navbar">
+                <ul class="navbar__list">
+                    <li class="navbar__item">
+                        <a href="#" class="navbar__link" a>Home
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#" class="navbar__link" a>Product
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#" class="navbar__link" a>Pricing
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#" class="navbar__link" a>Contact
+                    </li>
+
+                </ul>
+
+            </nav>
+
+            <div class="header__action">
+                <a href="" class="header__login">Login</a>
+                <button class="header__btn btn ">
+                    JOIN US
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="10" viewBox="0 0 12 10" fill="none">
+                        <g clip-path="url(#clip0_2690_6924)">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M0 5C0 4.81059 0.079009 4.62895 0.219646 4.49502C0.360282 4.36109 0.551026 4.28584 0.749916 4.28584H9.43845L6.21831 1.22068C6.07749 1.08658 5.99838 0.904705 5.99838 0.715059C5.99838 0.525414 6.07749 0.343536 6.21831 0.209436C6.35912 0.0753365 6.5501 0 6.74925 0C6.94839 0 7.13937 0.0753365 7.28019 0.209436L11.7797 4.49438C11.8495 4.56072 11.9049 4.63952 11.9427 4.72629C11.9805 4.81305 12 4.90606 12 5C12 5.09394 11.9805 5.18695 11.9427 5.27371C11.9049 5.36048 11.8495 5.43928 11.7797 5.50562L7.28019 9.79056C7.13937 9.92466 6.94839 10 6.74925 10C6.5501 10 6.35912 9.92466 6.21831 9.79056C6.07749 9.65646 5.99838 9.47459 5.99838 9.28494C5.99838 9.0953 6.07749 8.91342 6.21831 8.77932L9.43845 5.71416H0.749916C0.551026 5.71416 0.360282 5.63892 0.219646 5.50499C0.079009 5.37106 0 5.18941 0 5Z"
+                                fill="white" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_2690_6924">
+                                <rect width="12" height="10" fill="white" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </button>
             </div>
         </div>
+    </header>
 
-    </div>
+
+    <section class="hero">
+        <div class="hero-wrapper">
+            <div class="hero__content">
+
+                <h5 class="hero__tag">Join Us</h5>
+                <h1 class="hero__sec">25+ STUDENTS TRUST US</h1>
+                <h4 class="hero__headline">Our goal is to make online
+                    education work for everyone</h4>
+                <div class="hero__cta">
+                    <button class="hero__button cta__sec-color">Join Us</button>
+                    <button class="hero__button cta__sec">Learn More</button>
+                </div>
+
+            </div>
+
+            <figure class="hero__media">
+                <img src="./assets/images/banner/Placeholder.png" alt="" class="hero__img">
+            </figure>
+        </div>
+    </section>
     <!--END HEADER-->
 
 
-    
+
 </body>
+
 </html>

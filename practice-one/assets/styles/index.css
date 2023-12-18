@@ -1,0 +1,204 @@
+/* Start reset CSS */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End reset CSS */
+
+/*  Start ultilities */
+body {
+    background-color: #26335d;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 700; 
+    color: #fff;
+
+}
+.container {
+    width:  1054px;  
+    margin: 0 auto; 
+}
+/*  End ultilities */
+
+/* Start navbar */
+.navbar {
+    height: 91px;
+    width:  1054px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar__left {
+    display: flex;  
+    gap: 74px;
+    align-items: center;
+}
+
+.navbar__navigation {
+    display: flex;
+    gap: 24px;
+    margin-right: 240px;
+}
+
+.navbar__brand-name {
+    font-size: 21px;
+    font-weight: 700; 
+    color: #fff;
+      
+}
+
+.navbar__navigation__item{
+    padding-top:16px ;
+    padding-bottom: 16px;
+    line-height: 1.2;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+.navbar__right {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    margin-left: 20px;
+}
+.navbar__login {
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+}
+.navbar__btn {
+    font-size: 14px;
+    border-radius: 5px ;
+    padding: 15px 25px;
+    color: #fff;
+    background: #8D5CF6 ;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border: 1px solid #8D5CF6;
+
+}
+
+/* End navbar */
+
+/* Start row */
+.container-fluid {
+    width: 1439px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    width: 573px;
+    display: flex;
+    width: 1439px;
+    justify-content: flex-end;
+    /* align-items: center; */
+    gap: 30px;
+}
+.row__left {
+    display: flex;
+    width: 573px;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: flex-start; */
+    gap: 30px;
+}
+.row__tag {
+    font-size: 16px;
+    font-weight: 700;
+    color: #8D5CF6;
+    
+}
+.row__sec {
+    font-size: 58px;
+    font-weight: 700;
+    
+}
+.row__sub {
+    font-size: 20px;
+    font-weight: 400;
+    width: 458px;
+}
+.cta {
+    display: flex;
+    align-items: flex-start;
+gap: 10px;
+}
+.cta__sec__color {
+    padding: 15px 40px;
+    border-radius: 5px;
+    background-color: #8D5CF6;
+    font-size: 14px;
+    font-weight: 700;
+    color:#fff;
+    border: 1px solid #8D5CF6;
+}
+
+.cta__sec {
+    font-size: 14px;
+    font-weight: 700;
+    color:#fff;
+    padding: 15px 40px;
+    border-radius: 5px;
+    border: 1px solid #8D5CF6;
+    background-color: #26335d;
+}
+.row__right {
+    display: flex;
+    width: 704px;
+    height: 682px;
+    padding-right: 19px;
+    align-items: center;
+
+}
+.row__img {
+    width: 641.267px;
+    margin: auto;
+}
+/* End row */

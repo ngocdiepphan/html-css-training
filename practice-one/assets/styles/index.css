@@ -123,7 +123,6 @@
     align-items: center;
     gap: 10px;
     border: 1px solid #8d5cf6;
-  
  }  
 
  .icon__arrow--right {  
@@ -149,7 +148,6 @@
 
  .banner {
     display: flex;
-    
     width: 1439px;
     justify-content: flex-end;
     gap: 30px;
@@ -219,7 +217,7 @@
  /* End baner */
 
  /* Start introduce */
-.container__introduce {
+ .container__introduce {
     display: flex;
     width: 1050px;  
     flex-direction: column;
@@ -227,7 +225,8 @@
     align-items: center;  
     padding: 0px 195px; 
     margin-top: 160px; 
-}
+    margin-bottom: 160px;
+ }
 
 .intro__content {
     display: flex;
@@ -235,42 +234,38 @@
     flex-direction: column;
     width: 691px;
     text-align: center;
-}
-
-.intro__content__prac {
-    color: #8d5cf6;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 24px;
     letter-spacing: 0.2px;
-}
+ }
 
-.intro__content__title {
+ .intro__content__prac {
+    color: #8d5cf6;
+    line-height: 1.7;
+ }
+
+  .intro__content__title {
     text-align: center;
     font-size: 40px;
-    line-height: 50px;
-    letter-spacing: 0.2px;
-}
+    line-height: 1.25;
+ }
 
-.intro__content__desc {
+ .intro__content__desc {
     font-weight: 400;
-    line-height: 20px;
-    letter-spacing: 0.2px;
-}
+    line-height: 1.45;
+ }
 
-.intro__video {   
+ .intro__video {   
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
-}
+ }
 
-.intro__img {
+ .intro__img {
     width: 688px;
     height: 363px;
-}
+ }
 
-.intro__btn {
+ .intro__btn {
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -279,10 +274,14 @@
     position: absolute;
     left: 50%;
     top: 50%;
-}
+ }
 
-.intro__icon {
+ .icon__play {
+    display: inline-block;
+    background-image: url('./images/svg/icn-play.svg');
+    background-position: center;
     width: 19px;
     height: 23px;
-}
-/* End introducce */
+ }
+
+ /* End introducce */

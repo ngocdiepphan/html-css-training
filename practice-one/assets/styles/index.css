@@ -410,3 +410,54 @@ body {
 }
 
 /* End course */
+
+/* Start banner package */
+.banner-package {
+    width: 1037px;
+    gap: 35px;
+    display: flex;
+}
+
+.banner__content {
+    display: flex;
+    width: 507px;
+    flex-direction: column;
+    gap: 35px;
+    justify-content: center
+}
+
+.banner__crossbar {
+    width: 94px;
+    height: 7px;
+    background-color: #e74040;
+}
+
+.description-package {
+    width: 350px;
+}
+
+.icon__arrow-next {
+    background-image: url("./images/svg/icon__arrow-next.svg");
+    width: 9px;
+    height: 16px;
+}
+
+.banner__link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.product-img__tag {
+    display: inline-flex;
+    padding: 0px 10px;
+    align-items: center;
+    border-radius: 3px;
+    width: 51px;
+    height: 24px;
+    background-color: #e74040;
+    justify-content: center;
+    color: #fff;
+}
+
+/* End banner package */

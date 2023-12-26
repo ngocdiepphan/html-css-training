@@ -204,11 +204,10 @@ body {
 .icon {
     display: inline-block;
     background-position: center;
-    width: 20px;
-    height: 20px;
+    background-size: 20px 20px;
 }
 
-.icon__arrow--right {
+.icon-arrow-right {
     background-image: url("images/svg/icon-arrow-right.svg");
     background-position: right 2px center;
     background-repeat: no-repeat;
@@ -438,8 +437,8 @@ body {
     width: 350px;
 }
 
-.icon__arrow-next {
-    background-image: url("./images/svg/icon__arrow-next.svg");
+.icon-arrow-next {
+    background-image: url("./images/svg/icon-arrow-next.svg");
     width: 9px;
     height: 16px;
 }
@@ -505,14 +504,12 @@ body {
     background-image: url('./images/svg/icon-eye.svg');
 }
 
-.actions-style {
+.icon-style {
     width: 40px;
     height: 40px;
     background-color: #fff;
+    background-repeat: no-repeat;
     border-radius: 44.786px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .tag-sale {
@@ -549,7 +546,8 @@ body {
     flex-direction: row-reverse;
 }
 
-.icon-sale-detail {
+.icon-detail {
+    background-size: 16px 16px;
     width: 16px;
     height: 16px;
 }

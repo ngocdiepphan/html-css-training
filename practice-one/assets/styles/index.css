@@ -204,6 +204,8 @@ body {
 .icon {
     display: inline-block;
     background-position: center;
+    width: 20px;
+    height: 20px;
 }
 
 .icon__arrow--right {
@@ -493,28 +495,24 @@ body {
 
 .icon-like {
     background-image: url('./images/svg/icon-like.svg');
-    width: 20px;
-    height: 20px
 }
 
 .icon-cart {
     background-image: url('./images/svg/icon-cart.svg');
-    width: 20px;
-    height: 20px
 }
 
 .icon-eye {
     background-image: url('./images/svg/icon-eye.svg');
-    width: 20px;
-    height: 20px
 }
 
-.icon-style {
+.actions-style {
     width: 40px;
     height: 40px;
     background-color: #fff;
-    background-repeat: no-repeat;
     border-radius: 44.786px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .tag-sale {
@@ -551,10 +549,13 @@ body {
     flex-direction: row-reverse;
 }
 
-.icon-star {
-    background-image: url('images/svg/icon-star.svg');
+.icon-sale-detail {
     width: 16px;
     height: 16px;
+}
+
+.icon-star {
+    background-image: url('images/svg/icon-star.svg');
 }
 
 .detail-desc {
@@ -574,8 +575,6 @@ body {
 
 .icon-arrow-down {
     background-image: url('./images/svg/icon-arrow-download.svg');
-    width: 16px;
-    height: 16px;
 }
 
 .price {

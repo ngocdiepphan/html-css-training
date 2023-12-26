@@ -155,24 +155,24 @@ body {
     justify-content: space-between;
 }
 
-.navbar__left {
+.navbar-left {
     display: flex;
     gap: 74px;
     align-items: center;
 }
 
-.navbar__navigation {
+.navbar-navigation {
     display: flex;
     gap: 24px;
 }
 
-.navbar__brand-name {
+.navbar-brand-name {
     font-size: 21px;
     font-weight: 700;
     color: #fff;
 }
 
-.navbar__navigation__item {
+.navbar-navigation-item {
     padding-top: 16px;
     padding-bottom: 16px;
     line-height: 1.2;
@@ -180,21 +180,21 @@ body {
     font-weight: 700;
 }
 
-.navbar__right {
+.navbar-right {
     display: flex;
     align-items: center;
     gap: 45px;
     margin-left: 20px;
 }
 
-.navbar__login {
+.navbar-login {
     font-size: 14px;
     font-weight: 700;
     color: #fff;
     text-decoration: none;
 }
 
-.navbar__btn__right-arrow {
+.navbar-btn-right-arrow {
     background-color: #8d5cf6;
     display: flex;
     align-items: center;
@@ -233,25 +233,25 @@ body {
     gap: 30px;
 }
 
-.banner__left {
+.banner-left {
     display: flex;
     width: 573px;
     flex-direction: column;
     gap: 30px;
 }
 
-.banner__title {
+.banner-title {
     font-size: 58px;
     font-weight: 700;
 }
 
-.banner__des {
+.banner-des {
     font-size: 20px;
     font-weight: 400;
     width: 458px;
 }
 
-.banner__btn {
+.banner-btn {
     display: flex;
     align-items: flex-start;
     gap: 10px;
@@ -272,7 +272,7 @@ body {
     background-color: #26335d;
 }
 
-.banner__right {
+.banner-right {
     display: flex;
     width: 704px;
     height: 682px;
@@ -281,14 +281,14 @@ body {
     padding-right: 19px;
 }
 
-.banner__img {
+.banner-img {
     width: 642px;
 }
 
 /* End baner */
 
 /* Start introduce */
-.container__introduce {
+.container-introduce {
     display: flex;
     flex-direction: column;
     gap: 80px;
@@ -325,12 +325,12 @@ body {
     position: relative;
 }
 
-.intro__img {
+.intro-img {
     width: 688px;
     height: 363px;
 }
 
-.intro__btn {
+.intro-btn {
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -350,14 +350,14 @@ body {
 /* End introduce */
 
 /* Start course */
-.course__card {
+.course-card {
     display: flex;
     width: 688px;
     height: 288px;
     gap: 30px;
 }
 
-.course__tag {
+.course-tag {
     display: flex;
     width: 328px;
     flex-direction: column;
@@ -419,7 +419,7 @@ body {
     display: flex;
 }
 
-.banner__content {
+.banner-content {
     display: flex;
     width: 507px;
     flex-direction: column;
@@ -427,7 +427,7 @@ body {
     justify-content: center
 }
 
-.banner__crossbar {
+.banner-crossbar {
     width: 94px;
     height: 7px;
     background-color: #e74040;
@@ -443,14 +443,14 @@ body {
     height: 16px;
 }
 
-.banner__link {
+.banner-link {
     display: flex;
     align-items: center;
     gap: 10px;
     width: 102px;
 }
 
-.product-img__tag {
+.product-img-tag {
     display: inline-flex;
     padding: 0px 10px;
     align-items: center;

@@ -608,16 +608,16 @@ body {
 /* End product detail */
 
 /* Start pricing section */
-.pricing-style {
+.card-plan-style {
     padding: 29px 14.5px 20px 10.5px;
 }
 
-.pricing-card {
+.card-plan {
     display: flex;
     position: relative;
 }
 
-.pricing-item {
+.card-plan-item {
     display: flex;
     padding: 50px 40px;
     flex-direction: column;
@@ -655,7 +655,7 @@ body {
     color: #737373;
 }
 
-.pricing {
+.plan-price {
     color: #8d5cf6;
     font-size: 40px;
     line-height: 1.2;
@@ -666,11 +666,11 @@ body {
     line-height: 1.7;
 }
 
-.pricing-desc {
+.card-plan-desc {
     width: 204px;
 }
 
-.btn-pricing {
+.btn-card-plan {
     background-color: #8d5cf6;
     width: 100%;
     font-weight: 700;

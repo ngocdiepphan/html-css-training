@@ -138,6 +138,7 @@ body {
     font-family: "Montserrat", sans-serif;
     font-size: 14px;
     font-weight: 700;
+    letter-spacing: 0.2px;
     color: #fff;
 }
 
@@ -168,7 +169,7 @@ body {
 
 .navbar-brand-name {
     font-size: 21px;
-    font-weight: 700;
+    letter-spacing: 0.1px;
     color: #fff;
 }
 
@@ -302,7 +303,6 @@ body {
     flex-direction: column;
     width: 691px;
     text-align: center;
-    letter-spacing: 0.2px;
 }
 
 .first-title {
@@ -401,7 +401,6 @@ body {
     line-height: 1.4;
     text-align: center;
     color: #737373;
-    letter-spacing: 0.2px;
 }
 
 .icon-book {
@@ -447,7 +446,7 @@ body {
     display: flex;
     align-items: center;
     gap: 10px;
-    width: 102px;
+    width: 106px;
 }
 
 .product-img-tag {
@@ -559,13 +558,13 @@ body {
 .detail-desc {
     color: #737373;
     font-weight: 400;
-    line-height: 1.2;
+    line-height: 1.4;
     width: 280px;
 }
 
 .down-sale {
     font-weight: 700;
-    width: 83px;
+    width: 84px;
     display: flex;
     flex-direction: row-reverse;
     gap: 10px;
@@ -600,7 +599,6 @@ body {
 .learn-more {
     color: #8d5cf6;
     line-height: 1.7;
-    letter-spacing: 0.2px;
     display: flex;
     align-items: center;
     gap: 10px;
@@ -608,3 +606,128 @@ body {
 }
 
 /* End product detail */
+
+/* Start pricing section */
+.pricing-style {
+    padding: 29px 14.5px 20px 10.5px;
+}
+
+.pricing-card {
+    display: flex;
+    position: relative;
+}
+
+.pricing-item {
+    display: flex;
+    padding: 50px 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 35px;
+    box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+    background-color: #fff;
+}
+
+.circle-favorite {
+    display: flex;
+    padding: 24px 23px 24px 25px;
+    border-radius: 50%;
+    background-color: #8D5CF6;
+}
+
+.icon-favorite {
+    background-image: url('./images/svg/icon-favorite.svg');
+    width: 48px;
+    height: 48px;
+    background-size: 48px 48px;
+}
+
+.free {
+    color: #252B42;
+    font-size: 24px;
+    line-height: 1.33;
+    letter-spacing: 0.1px;
+    text-transform: uppercase;
+}
+
+.item-desc {
+    line-height: 1.7;
+    width: 203px;
+    color: #737373;
+}
+
+.pricing {
+    color: #8d5cf6;
+    font-size: 40px;
+    line-height: 1.2;
+}
+
+.month {
+    color: #8ec2f2;
+    line-height: 1.7;
+}
+
+.pricing-desc {
+    width: 204px;
+}
+
+.btn-pricing {
+    background-color: #8d5cf6;
+    width: 100%;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.feature-list {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+.circle {
+    display: flex;
+    padding: 10px 8px 11px 8px;
+    border-radius: 50%;
+    background-color: #2dc071;
+}
+
+.select-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 243px;
+}
+
+.icon-check {
+    background-image: url('./images/svg/icon-check.svg');
+    width: 16px;
+    height: 11px;
+    background-size: 16px 11px;
+    background-repeat: no-repeat;
+}
+
+.text {
+    color: #252b42;
+    line-height: 1.7;
+    width: 243px;
+}
+
+.circle-black {
+    background-color: #bdbdbd;
+}
+
+.circle-new {
+    padding: 29px 16px;
+    border-radius: 52px;
+    background-color: #e77c40;
+    position: absolute;
+    right: 33%;
+    top: 0px;
+}
+
+.text-new {
+    font-size: 24px;
+    line-height: 1.33;
+    letter-spacing: 0.1px;
+}
+
+/* End pricing section */

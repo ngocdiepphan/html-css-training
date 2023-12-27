@@ -306,7 +306,7 @@ body {
     text-align: center;
 }
 
-.first-title {
+.section-tag {
     color: #8d5cf6;
     line-height: 1.7;
 }
@@ -609,12 +609,12 @@ body {
 /* End product detail */
 
 /* Start pricing section */
-.card-plan {
+.card-plan-wrap {
     display: flex;
     position: relative;
 }
 
-.card-plan-style {
+.card-plan {
     padding: 29px 14.5px 20px 10.5px;
 }
 
@@ -642,7 +642,7 @@ body {
     background-size: 48px 48px;
 }
 
-.free {
+.card-plan-free {
     color: #252B42;
     font-size: 24px;
     line-height: 1.33;
@@ -650,7 +650,7 @@ body {
     text-transform: uppercase;
 }
 
-.item-desc {
+.card-plan-desc {
     line-height: 1.7;
     width: 203px;
     color: #737373;
@@ -662,7 +662,7 @@ body {
     line-height: 1.2;
 }
 
-.month {
+.plan-price-month {
     color: #8ec2f2;
     line-height: 1.7;
 }
@@ -678,7 +678,7 @@ body {
     line-height: 1.5;
 }
 
-.feature-list {
+.card-plan-list {
     display: flex;
     gap: 15px;
     flex-direction: column;
@@ -691,7 +691,7 @@ body {
     background-color: #2dc071;
 }
 
-.select-item {
+.card-plan-option {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -734,12 +734,12 @@ body {
 /* End pricing section */
 
 /* Start review */
-.card-review {
+.card-review-wrap {
     display: flex;
     gap: 15px;
 }
 
-.review-item {
+.card-review {
     display: flex;
     width: 446px;
     padding: 25px 25px 0px 25px;
@@ -764,7 +764,7 @@ body {
     border-radius: 50%;
 }
 
-.review-desc {
+.card-review-desc {
     text-align: center;
     width: 159px
 }
@@ -786,7 +786,7 @@ body {
     background-image: url('images/svg/icon-review-star.svg');
 }
 
-.profile-user {
+.profile {
     display: flex;
     padding: 0px 25px;
     flex-direction: column;

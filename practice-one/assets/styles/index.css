@@ -608,13 +608,13 @@ body {
 /* End product detail */
 
 /* Start pricing section */
-.card-plan-style {
-    padding: 29px 14.5px 20px 10.5px;
-}
-
 .card-plan {
     display: flex;
     position: relative;
+}
+
+.card-plan-style {
+    padding: 29px 14.5px 20px 10.5px;
 }
 
 .card-plan-item {

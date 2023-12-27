@@ -139,6 +139,7 @@ body {
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 0.2px;
+    font-style: normal;
     color: #fff;
 }
 
@@ -731,3 +732,78 @@ body {
 }
 
 /* End pricing section */
+
+/* Start review */
+.card-review {
+    display: flex;
+    gap: 15px;
+}
+
+.review-item {
+    display: flex;
+    width: 446px;
+    padding: 25px 25px 0px 25px;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
+    background-color: #fff;
+}
+
+.content-review {
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    align-self: stretch;
+}
+
+.img-user {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+}
+
+.review-desc {
+    text-align: center;
+    width: 159px
+}
+
+.review-rating {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.icon-review-star-color {
+    background-image: url('images/svg/icon-review-star-color.svg');
+    width: 22px;
+    height: 22px;
+    background-size: 22px 22px;
+}
+
+.icon-review-star {
+    background-image: url('images/svg/icon-review-star.svg');
+}
+
+.profile-user {
+    display: flex;
+    padding: 0px 25px;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.name-user {
+    color: #252b42;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.1px;
+}
+
+.position-user {
+    font-weight: 700;
+    width: 65px;
+}
+
+/* End review */

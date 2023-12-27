@@ -706,9 +706,9 @@ body {
 }
 
 .text {
+    width: 243px;
     color: #252b42;
     line-height: 1.7;
-    width: 243px;
 }
 
 .circle-black {

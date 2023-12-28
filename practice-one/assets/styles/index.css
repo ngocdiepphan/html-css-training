@@ -140,12 +140,21 @@ body {
     font-weight: 700;
     letter-spacing: 0.2px;
     font-style: normal;
-    color: #fff;
+    color: var(--light-text-color);
 }
 
 .container {
     width: 1054px;
     margin: 0 auto;
+}
+
+:root {
+    --primary-color: #8d5cf6;
+    --light-text-color: #fff;
+    --second-text-color: #737373;
+    --first-text-color: #252b42;
+    --crossbar-color: #e74040;
+    --boder-subscribe-color: #e6e6e6;
 }
 
 /*  End ultilities */
@@ -171,7 +180,6 @@ body {
 .navbar-brand-name {
     font-size: 21px;
     letter-spacing: 0.1px;
-    color: #fff;
 }
 
 .navbar-navigation-item {
@@ -192,12 +200,12 @@ body {
 .navbar-login {
     font-size: 14px;
     font-weight: 700;
-    color: #fff;
     text-decoration: none;
+    color: var(--white-color);
 }
 
 .navbar-btn-right-arrow {
-    background-color: #8d5cf6;
+    background-color: var(--primary-color);
     display: flex;
     align-items: center;
     gap: 10px;
@@ -262,12 +270,12 @@ body {
 .btn {
     padding: 15px 40px;
     border-radius: 5px;
-    color: #fff;
-    border: 1px solid #8d5cf6;
+    border: 1px solid var(--primary-color);
+    color: var(--light-text-color);
 }
 
 .btn-join {
-    background-color: #8d5cf6;
+    background-color: var(--primary-color);
 }
 
 .btn-learn {
@@ -307,7 +315,7 @@ body {
 }
 
 .section-tag {
-    color: #8d5cf6;
+    color: var(--primary-color);
     line-height: 1.7;
 }
 
@@ -335,8 +343,8 @@ body {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    border: 1px solid #8d5cf6;
-    background-color: #8d5cf6;
+    border: 1px solid var(--primary-color);
+    background-color: var(--primary-color);
     position: absolute;
     left: 50%;
     top: 50%;
@@ -365,7 +373,7 @@ body {
     padding: 35px 40px;
     align-items: center;
     gap: 20px;
-    background-color: #fff;
+    background-color: var(--light-text-color);
 }
 
 .tag-circle {
@@ -387,13 +395,13 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.1px;
-    color: #252b42;
+    color: var(--first-text-color);
 }
 
 .tag-crossbar {
     width: 50px;
     height: 2px;
-    background-color: #e74040;
+    background-color: var(--crossbar-color);
 }
 
 .tag-desc {
@@ -401,7 +409,7 @@ body {
     font-weight: 400;
     line-height: 1.4;
     text-align: center;
-    color: #737373;
+    color: var(--second-text-color);
 }
 
 .icon-book {
@@ -430,7 +438,7 @@ body {
 .banner-crossbar {
     width: 94px;
     height: 7px;
-    background-color: #e74040;
+    background-color: var(--crossbar-color);
 }
 
 .description-package {
@@ -457,9 +465,9 @@ body {
     border-radius: 3px;
     width: 51px;
     height: 24px;
-    background-color: #e74040;
+    background-color: var(--crossbar-color);
     justify-content: center;
-    color: #fff;
+    color: var(--light-text-color);
 }
 
 /* End banner package */
@@ -488,8 +496,8 @@ body {
     align-items: flex-start;
     gap: 10px;
     position: absolute;
-    top: 78%;
-    left: 30%;
+    top: 235px;
+    left: 104px
 }
 
 .icon-like {
@@ -507,7 +515,7 @@ body {
 .icon-style {
     width: 40px;
     height: 40px;
-    background-color: #fff;
+    background-color: var(--light-text-color);
     background-repeat: no-repeat;
     border-radius: 44.786px;
 }
@@ -515,8 +523,8 @@ body {
 .tag-sale {
     line-height: 1.7;
     position: absolute;
-    left: 6%;
-    top: 6%;
+    left: 22px;
+    top: 22px;
     width: 30px;
 }
 
@@ -526,7 +534,7 @@ body {
     flex-direction: column;
     align-items: flex-start;
     gap: 10px;
-    background-color: #fff;
+    background-color: var(--light-text-color);
 }
 
 .review {
@@ -557,7 +565,7 @@ body {
 }
 
 .detail-desc {
-    color: #737373;
+    color: var(--second-text-color);
     font-weight: 400;
     line-height: 1.4;
     width: 280px;
@@ -595,10 +603,11 @@ body {
 .btn-learn-more {
     border-radius: 37px;
     padding: 10px 20px;
+    background-color: var(--light-text-color);
 }
 
 .learn-more {
-    color: #8d5cf6;
+    color: var(--primary-color);
     line-height: 1.7;
     display: flex;
     align-items: center;
@@ -625,14 +634,14 @@ body {
     align-items: flex-start;
     gap: 35px;
     box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
-    background-color: #fff;
+    background-color: var(--light-text-color)
 }
 
 .circle-favorite {
     display: flex;
     padding: 24px 23px 24px 25px;
     border-radius: 50%;
-    background-color: #8D5CF6;
+    background-color:var(--primary-color);
 }
 
 .icon-favorite {
@@ -643,7 +652,7 @@ body {
 }
 
 .card-plan-free {
-    color: #252B42;
+    color: var(--first-text-colorS);
     font-size: 24px;
     line-height: 1.33;
     letter-spacing: 0.1px;
@@ -653,11 +662,11 @@ body {
 .card-plan-desc {
     line-height: 1.7;
     width: 203px;
-    color: #737373;
+    color: var(--second-text-color);
 }
 
 .plan-price {
-    color: #8d5cf6;
+    color: var(--primary-color);
     font-size: 40px;
     line-height: 1.2;
 }
@@ -672,7 +681,7 @@ body {
 }
 
 .btn-card-plan {
-    background-color: #8d5cf6;
+    background-color: var(--primary-color);
     width: 100%;
     font-weight: 700;
     line-height: 1.5;
@@ -708,7 +717,7 @@ body {
 
 .text {
     width: 243px;
-    color: #252b42;
+    color: var(--first-text-color);
     line-height: 1.7;
 }
 
@@ -721,7 +730,7 @@ body {
     border-radius: 52px;
     background-color: #e77c40;
     position: absolute;
-    right: 33%;
+    right: 338px;
     top: 0px;
 }
 
@@ -746,7 +755,7 @@ body {
     flex-direction: column;
     align-items: center;
     align-self: stretch;
-    background-color: #fff;
+    background-color: var(--light-text-color);
 }
 
 .content-review {
@@ -795,7 +804,7 @@ body {
 }
 
 .name-user {
-    color: #252b42;
+    color: var(--first-text-color);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.1px;
@@ -815,7 +824,7 @@ body {
     height: 58px;
     align-items: center;
     border-radius: 5px;
-    border: 1px solid #e6e6e6;
+    border: 1px solid var(--boder-subscribe-color);
     background: #f9f9f9;
     position: relative;
 }
@@ -827,25 +836,26 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 0px 5px 5px 0px;
-    border: 1px solid #e6e6e6;
-    background-color: #8d5cf6;
+    border: 1px solid var(--boder-subscribe-color);
+    background-color: var(--primary-color);
     position: absolute;
-    right: 0%;
+    right: 0px;
 }
 
 .text-email {
     line-height: 2;
     position: absolute;
-    left: 3%;
+    left: 30px;
 }
 
 .input-subscribe {
     width: 72px;
     display: flex;
     text-align: center;
-    color: #fff;
-    background-color: #8d5cf6;
-    border: 1px solid #8d5cf6;
+    color: var(--light-text-color);
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
 }
 
 /* End subscribe */
+

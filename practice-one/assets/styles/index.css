@@ -206,13 +206,13 @@ body {
 .icon {
     display: inline-block;
     background-position: center;
+    background-repeat: no-repeat;
     background-size: 20px 20px;
 }
 
 .icon-arrow-right {
     background-image: url("images/svg/icon-arrow-right.svg");
     background-position: right 2px center;
-    background-repeat: no-repeat;
     background-size: contain;
     width: 12px;
     height: 10px;
@@ -508,7 +508,6 @@ body {
     width: 40px;
     height: 40px;
     background-color: #fff;
-    background-repeat: no-repeat;
     border-radius: 44.786px;
 }
 
@@ -703,7 +702,6 @@ body {
     width: 16px;
     height: 11px;
     background-size: 16px 11px;
-    background-repeat: no-repeat;
 }
 
 .text {
@@ -807,3 +805,123 @@ body {
 }
 
 /* End review */
+
+
+/* Start footer connect */
+.footer-connect {
+    background: #fff;
+    height: 272px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0px 177px 0px 176px;
+}
+
+.footer-connect-item {
+    display: flex;
+    gap: 30px;
+    color: black;
+}
+
+.footer-connect-item-wrap {
+    display: flex;
+    width: 148px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-connect-item-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-connect-address {
+    font-weight: 700;
+    line-height: 1.7;
+}
+
+.footer-connect-legal {
+    width: 152px;
+}
+
+.right {
+    width: 321px;
+}
+
+.footer-connect-item-phone {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-direction: row-reverse;
+}
+
+.icon-phone {
+    background-image: url('images/svg/icon-phone.svg');
+    width: 24px;
+    height: 24px;
+}
+
+.icon-map {
+    background-image: url('images/svg/icon-map.svg');
+    width: 24px;
+    height: 30px;
+}
+
+.icon-email {
+    background-image: url('./images/svg/icon-email.svg');
+    width: 24px;
+    height: 26px;
+}
+
+
+/* End footer connect */
+
+/* Start footer */
+.footer {
+    background: #fafafa;
+    height: 74px;
+    gap: 213px;
+    padding: 0px 177px 0px 176px;
+}
+
+.footer-wrap {
+    display: flex;
+    gap: 213px;
+    width: 100%;
+}
+
+.footer-desc {
+    width: 600px;
+}
+
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 236px;
+}
+
+.footer-logo-icon {
+    width: 24px;
+    height: 24px;
+    background-size: 24px 24px;
+}
+
+.icon-facebook {
+    background-image: url('images/svg/icon-facebook.svg');
+}
+
+.icon-instagram {
+    background-image: url('images/svg/icon-instagram.svg');
+}
+
+.icon-twitter {
+    background-image: url('images/svg/icon-twitter.svg');
+    width: 24px;
+    height: 19.765px;
+    background-size: 24px 19.765px;
+}
+
+/* End footer */

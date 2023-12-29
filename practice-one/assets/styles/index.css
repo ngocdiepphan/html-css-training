@@ -927,13 +927,15 @@ body {
 }
 
 .footer-copyright {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
     width: 100%;
     background-color: #fafafa;
-    justify-content: space-evenly;
     padding: 25px 0px;
+}
+
+.copyright-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .footer-desc {

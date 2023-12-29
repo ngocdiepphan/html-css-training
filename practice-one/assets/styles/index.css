@@ -275,7 +275,7 @@ body {
 }
 
 .btn-join {
-    background-color: #8d5cf6;
+    background-color: var(--primary-color);
     line-height: 1.5;
     font-weight: 700;
 }
@@ -517,7 +517,8 @@ body {
 .icon-style {
     width: 40px;
     height: 40px;
-    background-color: #fff;
+    background-color: var(--light-text-color);
+    background-repeat: no-repeat;
     border-radius: 44.786px;
 }
 
@@ -604,7 +605,7 @@ body {
 .btn-learn-more {
     border-radius: 37px;
     padding: 10px 20px;
-    background-color: #fff;
+    background-color: var(--light-text-color);
 }
 
 .learn-more {
@@ -815,6 +816,48 @@ body {
 }
 
 /* End review */
+
+/* Start subscribe */
+.subscribe {
+    display: flex;
+    width: 688px;
+    height: 58px;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid var(--boder-subscribe-color);
+    background: #f9f9f9;
+    position: relative;
+}
+
+.btn-subscribe {
+    display: flex;
+    width: 117px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 5px 5px 0px;
+    border: 1px solid var(--boder-subscribe-color);
+    background-color: var(--primary-color);
+    position: absolute;
+    right: 0px;
+}
+
+.text-email {
+    line-height: 2;
+    position: absolute;
+    left: 30px;
+}
+
+.input-subscribe {
+    width: 72px;
+    display: flex;
+    text-align: center;
+    color: var(--light-text-color);
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
+/* End subscribe */
 
 
 /* Start footer */

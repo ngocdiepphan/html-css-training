@@ -157,6 +157,11 @@ body {
     --boder-subscribe-color: #e6e6e6;
 }
 
+.nav-link {
+    text-decoration: none;
+    color: var(--light-text-color);
+}
+
 /*  End ultilities */
 
 /* Start navbar */
@@ -185,9 +190,7 @@ body {
 .navbar-navigation-item {
     padding-top: 16px;
     padding-bottom: 16px;
-    line-height: 1.2;
-    font-size: 14px;
-    font-weight: 700;
+    line-height: 1.7;
 }
 
 .navbar-right {
@@ -312,7 +315,6 @@ body {
     display: flex;
     gap: 10px;
     flex-direction: column;
-    width: 691px;
     text-align: center;
 }
 
@@ -332,7 +334,6 @@ body {
 }
 
 .intro {
-    display: flex;
     position: relative;
 }
 
@@ -364,7 +365,6 @@ body {
 .course-card {
     display: flex;
     width: 688px;
-    height: 288px;
     gap: 30px;
 }
 
@@ -460,7 +460,7 @@ body {
     width: 106px;
 }
 
-.product-img-tag {
+.card-product-tag {
     display: inline-flex;
     padding: 0px 10px;
     align-items: center;
@@ -476,13 +476,13 @@ body {
 
 
 /* Start product detail */
-.carousel {
+.card-product-wrapper{
     display: flex;
     width: 710px;
     gap: 15px;
 }
 
-.product-img {
+.card-product-img {
     width: 348px;
     height: 300px;
     position: relative;
@@ -493,7 +493,7 @@ body {
     position: relative;
 }
 
-.product-img-actions {
+.card-product-icons {
     display: inline-flex;
     align-items: flex-start;
     gap: 10px;
@@ -530,7 +530,7 @@ body {
     width: 30px;
 }
 
-.product-detail {
+.card-product-detail {
     display: flex;
     padding: 25px 25px 35px 25px;
     flex-direction: column;
@@ -626,7 +626,7 @@ body {
 }
 
 .card-plan {
-    padding: 29px 14.5px 20px 10.5px;
+    margin: 29px 14.5px 20px 10.5px;
 }
 
 .card-plan-item {
@@ -653,11 +653,16 @@ body {
 }
 
 .card-plan-free {
-    color: var(--first-text-colorS);
+    color: var(--first-text-color);
     font-size: 24px;
     line-height: 1.33;
     letter-spacing: 0.1px;
     text-transform: uppercase;
+}
+
+.card-plan-price {
+    display: flex;
+    flex-direction: column;
 }
 
 .card-plan-desc {
@@ -797,7 +802,6 @@ body {
 
 .profile {
     display: flex;
-    padding: 0px 25px;
     flex-direction: column;
     align-items: center;
     gap: 5px;
@@ -812,7 +816,7 @@ body {
 
 .position-user {
     font-weight: 700;
-    width: 65px;
+    text-align: center;
 }
 
 /* End review */
@@ -970,4 +974,7 @@ body {
     background-size: 24px 20px;
 }
 
+.link-infor {
+    color: var(--second-text-color);
+}
 /* End footer */

@@ -182,11 +182,6 @@ body {
     gap: 24px;
 }
 
-.navbar-brand-name {
-    font-size: 21px;
-    letter-spacing: 0.1px;
-}
-
 .navbar-navigation-item {
     padding-top: 16px;
     padding-bottom: 16px;

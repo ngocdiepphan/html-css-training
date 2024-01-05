@@ -395,9 +395,13 @@ body {
     color: var(--first-text-color);
 }
 
-.tag-crossbar {
+.tag-desc::before {
+    content: "";
+    position: absolute;
     width: 50px;
     height: 2px;
+    left: 31%;
+    top: 1%;
     background-color: var(--crossbar-color);
 }
 
@@ -407,6 +411,8 @@ body {
     line-height: 1.4;
     text-align: center;
     color: var(--second-text-color);
+    position: relative;
+    padding-top: 20px;
 }
 
 .icon-book {

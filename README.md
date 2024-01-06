@@ -8,8 +8,6 @@ This document provides the estimation for the HTML/CSS practice.
   - HTML
   - CSS
 ## TARGETS
-The trainee is able to analyze & make a webpage from an existing design. To achieve this the trainee should learn:
-Structure of an HTML file
   * Understand HTML/CSS properties and use them correctly
   * Slice from Sketch to HTML/CSS
   * Understand the concepts of Flex

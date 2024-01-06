@@ -18,8 +18,6 @@ This document provides the estimation for the HTML/CSS practice.
 * Apply CSS Guideline
 * Use validate tools: https://validator.w3.org/
 * Use Parcel for development
-<<<<<<< HEAD
-=======
 ## Getting Started
  * Clone the repository
 ```
@@ -32,5 +30,3 @@ cd html-css-training/practice-one
  * Moved to file index.html
  * Download extensions live server on Visual Studio Code
  * Run Live server file index.html
-    
->>>>>>> 13616f60a03a0dbfc4669412f93f60b98827991d

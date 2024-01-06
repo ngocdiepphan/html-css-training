@@ -18,4 +18,3 @@ This document provides the estimation for the HTML/CSS practice.
 * Apply CSS Guideline
 * Use validate tools: https://validator.w3.org/
 * Use Parcel for development
-    

@@ -844,42 +844,26 @@ body {
 
 /* Start subscribe */
 .subscribe {
-    display: flex;
-    width: 688px;
-    height: 58px;
-    align-items: center;
-    border-radius: 5px;
-    border: 1px solid var(--boder-subscribe-color);
-    background: #f9f9f9;
-    position: relative;
+    position: relative;;
 }
 
 .btn-subscribe {
-    display: flex;
+    position: absolute;
+    top: 2px;
+    right: 2px;
     width: 117px;
-    height: 60px;
-    justify-content: center;
-    align-items: center;
+    height: 58px;
+    padding: 15px 22.5px;
     border-radius: 0px 5px 5px 0px;
-    border: 1px solid var(--boder-subscribe-color);
-    background-color: var(--primary-color);
-    position: absolute;
-    right: 0px;
+    border: 1px solid #E6E6E6;
+    background: var(--primary-color, #8D5CF6)
 }
 
-.text-email {
-    line-height: 2;
-    position: absolute;
-    left: 30px;
-}
-
-.input-subscribe {
-    width: 72px;
-    display: flex;
-    text-align: center;
-    color: var(--light-text-color);
-    background-color: var(--primary-color);
-    border: 1px solid var(--primary-color);
+.input-email {
+    width: 688px;
+    height: 58px;
+    border-radius: 5px 5px 5px 5px;
+    padding: 0px 0px 0px 30px;
 }
 
 /* End subscribe */

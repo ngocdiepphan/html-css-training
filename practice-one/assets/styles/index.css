@@ -771,6 +771,7 @@ body {
 }
 
 .card-review {
+    position: relative;
     display: flex;
     width: 446px;
     padding: 25px 25px 0px 25px;
@@ -787,12 +788,15 @@ body {
     align-items: center;
     gap: 15px;
     align-self: stretch;
+    padding-top: 155px;
 }
 
 .img-user {
+    position: absolute;
     width: 128px;
     height: 128px;
     border-radius: 50%;
+    left: 187px;
 }
 
 .card-review-desc {

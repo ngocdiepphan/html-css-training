@@ -438,10 +438,20 @@ body {
     justify-content: center
 }
 
-.banner-crossbar {
+.title-banner {
+    font-size: 40px;
+    line-height: 1.25;
+    position: relative;
+    padding-top: 42px;
+}
+
+.title-banner::before {
     width: 94px;
     height: 7px;
     background-color: var(--crossbar-color);
+    position: absolute;
+    content: "";
+    top: 0%;
 }
 
 .description-package {

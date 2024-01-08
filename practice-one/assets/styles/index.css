@@ -396,17 +396,17 @@ body {
     padding-bottom: 20px;
 }
 
-.line-bottom-center {
+.underline {
     position: relative;
 }
 
-.line-bottom-center::after {
+.underline.center::after {
     content: "";
     position: absolute;
     width: 50px;
     height: 2px;
-    left: 31%;
-    top: 98%;
+    left: 50px;
+    top: 44px;
     background-color: var(--crossbar-color);
 }
 
@@ -447,16 +447,16 @@ body {
     padding-top: 42px;
 }
 
-.line-top {
+.overline {
     position: relative;;
 }
-.line-top::before {
+.overline::before {
     width: 94px;
     height: 7px;
     background-color: var(--crossbar-color);
     position: absolute;
     content: "";
-    top: 0%;
+    bottom: 90px;
 }
 
 .description-package {

@@ -448,8 +448,9 @@ body {
 }
 
 .overline {
-    position: relative;;
+    position: relative;
 }
+
 .overline::before {
     width: 94px;
     height: 7px;

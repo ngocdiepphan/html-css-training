@@ -17,7 +17,6 @@ This document provides the estimation for the HTML/CSS practice.
 * Apply Flexbox
 * Apply CSS Guideline
 * Use validate tools: https://validator.w3.org/
-* Use Parcel for development
 ## Getting Started
  * Clone the repository
 ```

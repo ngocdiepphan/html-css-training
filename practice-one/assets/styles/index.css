@@ -393,15 +393,20 @@ body {
     line-height: 1.5;
     letter-spacing: 0.1px;
     color: var(--first-text-color);
+    padding-bottom: 20px;
 }
 
-.tag-desc::before {
+.underline {
+    position: relative;
+}
+
+.underline.center::after {
     content: "";
     position: absolute;
     width: 50px;
     height: 2px;
-    left: 31%;
-    top: 1%;
+    left: 50px;
+    top: 44px;
     background-color: var(--crossbar-color);
 }
 
@@ -411,8 +416,6 @@ body {
     line-height: 1.4;
     text-align: center;
     color: var(--second-text-color);
-    position: relative;
-    padding-top: 20px;
 }
 
 .icon-book {
@@ -441,17 +444,20 @@ body {
 .title-banner {
     font-size: 40px;
     line-height: 1.25;
-    position: relative;
     padding-top: 42px;
 }
 
-.title-banner::before {
+.overline {
+    position: relative;
+}
+
+.overline::before {
     width: 94px;
     height: 7px;
     background-color: var(--crossbar-color);
     position: absolute;
     content: "";
-    top: 0%;
+    bottom: 90px;
 }
 
 .description-package {
@@ -487,7 +493,7 @@ body {
 
 
 /* Start product detail */
-.card-product-wrapper{
+.card-product-wrapper {
     display: flex;
     width: 710px;
     gap: 15px;
@@ -654,7 +660,7 @@ body {
     display: flex;
     padding: 24px 23px 24px 25px;
     border-radius: 50%;
-    background-color:var(--primary-color);
+    background-color: var(--primary-color);
 }
 
 .icon-favorite {
@@ -988,4 +994,5 @@ body {
 .link-infor {
     color: var(--second-text-color);
 }
+
 /* End footer */

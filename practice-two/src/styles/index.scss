@@ -1,0 +1,8 @@
+@import "./utilities/index.scss";
+
+.test {
+  color: #e74c4c;
+  background-color: rgb(177, 244, 150);
+  font-size: $fs-medium;
+  line-height: $lh-x-medium;
+}

@@ -1,15 +1,15 @@
 // Font family start
-$primary-font: "Playfair Display";
-$secondary-font: "Inter";
+$font-primary: "Playfair Display";
+$font-secondary: "Inter";
 // Font family end
 
 // Common color start
-$primary-color: #000;
-$secondary-color: #7f7f7f;
+$color-primary: #000;
+$color-secondary: #7f7f7f;
 // Common color end
 
 // Background color start
-$bg-primary-color: #fff;
+$bg-color-primary: #fff;
 // Background color end
 
 // Font size start
@@ -38,6 +38,6 @@ $lh-xs-medium: 1.58;
 // Line height end
 
 // Devices
-$min-width-desktop: 1200px;
-$min-width-tablet: 900px;
-$min-width-mobile: 400px;
+$desktop: 1200px;
+$tablet: 768px;
+$mobile: 480px;

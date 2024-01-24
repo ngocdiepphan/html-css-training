@@ -1,0 +1,20 @@
+.header-section {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	width: 100%;
+	background-color: antiquewhite;
+
+	@media (min-width: $tablet){
+		margin-bottom: 3rem;
+		background-color: green;
+	}
+
+	@media (min-width: $desktop){
+		margin-top: 3rem;
+		background-color: red;;
+	}
+}
+
+
+
+

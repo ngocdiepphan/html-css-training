@@ -2,21 +2,74 @@
 	display: flex;
 	justify-content: space-between;
 
-	&__logo {
-		width: 110px;
+	@include desktop {
+		.checkbtn {
+			display: none;
+		}
 	}
 
-	&__item {
+	&__logo {
+		width: 110px;
+
+		@include tablet {
+			width: 160px;
+		}
+	}
+
+	&__icon {
 		display: flex;
 		align-items: center;
 		gap: 1.5rem;
 	}
 
-	&__menu {
-		display: flex;
+	&__navigation {
+		display: none;
 		flex-direction: column;
 		align-items: center;
 		gap: 3rem;
+
+		@include desktop {
+			display: flex;
+			flex-direction: row;
+		}
+
+		&--mobile {
+			position: absolute;
+			right: 0;
+			top: 80px;
+			padding: 2rem;
+			background: #b1e1f8;
+			border-top-left-radius: 30px;
+			border-bottom-left-radius: 30px;
+
+			@include desktop {
+				display: none;
+			}
+		}
+
+		&__link {
+			text-decoration: none;
+			font-size: $fs-x-medium;
+			font-family: $font-secondary;
+			color: $color-primary;
+
+			&:hover {
+				color: #7c9eef;
+			}
+		}
+
+		&__item {
+			background-image: url("../assets/images/header/arrow-down.svg");
+			background-position: right center;
+			background-repeat: no-repeat;
+			padding-left: 20px;
+			padding-right: 20px;
+		}
+
+		&__item:nth-child(4),
+		&__item:nth-child(5) {
+			background-image: none;
+		}
 	}
 
 	&__icon-search {
@@ -42,8 +95,18 @@
 				display: block;
 			}
 
-			~ .navbar__list--mobile {
-				display: block;
+			~ .navbar__navigation--mobile {
+				display: flex;
+			}
+
+			@include desktop {
+				~ .nav-overlay {
+					display: none;
+				}
+
+				~ .navbar__navigation--mobile {
+					display: none;
+				}
 			}
 		}
 	}
@@ -57,70 +120,5 @@
 		display: none;
 		animation: fadeIn linear 0.5s;
 		background-color: rgba(0, 0, 0, 0.5);
-	}
-
-	.navbar__list--mobile {
-		position: absolute;
-		right: 0;
-		top: 80px;
-		padding: 2rem;
-		display: none;
-		background: #b1e1f8;
-		border-top-left-radius: 30px;
-		border-bottom-left-radius: 30px;
-
-		@include desktop {
-			display: none;
-		}
-	}
-
-	.navbar__list--desktop {
-		display: none;
-
-		@include desktop {
-			display: flex;
-		}
-	}
-
-	.navbar__menu__link {
-		text-decoration: none;
-		font-size: $fs-x-medium;
-		font-family: $font-secondary;
-		color: $color-primary;
-
-		&:hover {
-			color: #7c9eef;
-		}
-	}
-
-	@include tablet {
-		.navbar__logo {
-			width: 160px;
-		}
-	}
-
-	@include desktop {
-		.checkbtn {
-			display: none;
-		}
-
-		.navbar__list--mobile {
-			display: none;
-		}
-
-		#check:checked {
-			~ .nav-overlay {
-				display: none;
-			}
-
-			~ .navbar__list--mobile {
-				display: none;
-			}
-		}
-
-		.navbar__menu {
-			display: flex;
-			flex-direction: row;
-		}
 	}
 }

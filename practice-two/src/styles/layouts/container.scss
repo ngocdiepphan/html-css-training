@@ -3,13 +3,13 @@
 	width: 96%;
 	max-width: 480px;
 
-	@media (min-width: $tablet) {
+	@include tablet {
 		margin: 0 auto;
 		width: 80%;
 		max-width: 768px;
 	}
 
-	@media (min-width: $desktop) {
+	@include desktop {
 		margin: 0 auto;
 		width: 95%;
 		max-width: 1200px;

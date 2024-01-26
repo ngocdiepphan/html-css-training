@@ -68,13 +68,18 @@
 
 			@include desktop {
 				font-size: $fs-medium;
-				width: 77%;
+				width: 83%;
 			}
 		}
 
 		&__next {
-			display: flex;
-			justify-content: flex-end;
+			margin-left: auto;
+			width: 40px;
+			height: 40px;
+			background-color: $bg-color-primary;
+			background-image: url("../assets/images/banner/arrows-right.svg");
+			background-position: center;
+			background-repeat: no-repeat;
 		}
 	}
 }

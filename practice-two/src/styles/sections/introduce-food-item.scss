@@ -1,0 +1,59 @@
+.introduce-description {
+	font-size: 24px;
+	line-height: $lh-x-small;
+	margin-top: 3.3rem;
+
+	@include tablet {
+		font-size: $fs-x-huge;
+	}
+}
+
+.introduce {
+	display: flex;
+	flex-direction: column;
+
+	@include tablet {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+}
+
+.introduce-item {
+	@include tablet {
+		margin-right: 25px;
+
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+
+	&__image {
+		width: 100%;
+		margin-top: 2rem;
+	}
+
+	&__rating {
+		display: flex;
+		gap: 5px;
+		margin-top: 13px;
+		margin-bottom: 19px;
+	}
+
+	&__rating-star {
+		background-image: url(../assets/images/introduce-food-item/star.svg);
+		width: 14px;
+		height: 14px;
+	}
+
+	&__name-food {
+		font-family: $font-secondary;
+		font-size: $fs-x-medium;
+		line-height: $lh-x-medium;
+		width: 100%;
+
+		@include tablet {
+			font-size: $fs-large;
+		}
+	}
+}

@@ -1,3 +1,30 @@
 .btn {
 	border: none;
+
+	&__subs {
+		color: #ffffff;
+		border-radius: 4px;
+		border: 1px solid #ff642b;
+		background-color: #ff642b;
+		padding: 15px 30px;
+		margin-bottom: 20px;
+		text-transform: uppercase;
+		width: 100%;
+		&:hover {
+			background-color: #eb532d;
+		}
+
+		@include tablet {
+			color: #ffffff;
+			border-radius: 0px 4px 4px 0px;
+			background: #ff642b;
+			width: 130px;
+			height: 64px;
+			position: absolute;
+
+			&:hover {
+				background-color: #eb532d;
+			}
+		}
+	}
 }

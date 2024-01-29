@@ -1,3 +1,24 @@
 .btn {
 	border: none;
+	border-radius: 4px;
+
+	&__subs {
+		color: #ffffff;
+		border: 1px solid $bg-color-secondary;
+		background-color: $bg-color-secondary;
+		padding: 15px 30px;
+		margin-bottom: 20px;
+		text-transform: uppercase;
+		height: 3rem;
+
+		&:hover {
+			background-color: #fd4c0c;
+		}
+
+		@include tablet {
+			width: 30%;
+			height: 4.25rem;
+			border-radius: 0 4px 4px 0;
+		}
+	}
 }

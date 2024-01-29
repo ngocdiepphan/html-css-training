@@ -3,6 +3,10 @@
 		font-size: 24px;
 		line-height: $lh-x-small;
 		margin-top: 3.3rem;
+
+		@include tablet {
+			font-size: $fs-x-huge;
+		}
 	}
 
 	&__list {
@@ -11,7 +15,7 @@
 		justify-content: space-between;
 	}
 
-	&__list-wrapper {
+	&__item {
 		margin-top: 2rem;
 		width: 30%;
 

@@ -37,7 +37,7 @@
 			width: 40%;
 		}
 
-		&__introduce {
+		&-introduce {
 			display: flex;
 			gap: 11px;
 			font-family: $font-secondary;
@@ -45,7 +45,7 @@
 			line-height: $lh-x-medium;
 		}
 
-		&__heading {
+		&-heading {
 			font-size: 30px;
 			width: 77%;
 			line-height: $lh-x-small;
@@ -56,7 +56,7 @@
 			}
 		}
 
-		&__description {
+		&-description {
 			font-family: $font-secondary;
 			line-height: $lh-x-medium;
 			width: 75%;
@@ -72,7 +72,7 @@
 			}
 		}
 
-		&__next {
+		&-next {
 			margin-left: auto;
 			width: 40px;
 			height: 40px;

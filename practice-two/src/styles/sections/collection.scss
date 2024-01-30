@@ -1,0 +1,63 @@
+.collection {
+	&__list {
+		margin-top: 2.2rem;
+
+		@include tablet {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+		}
+	}
+
+	&__item {
+		@include tablet {
+			width: 49%;
+		}
+
+		&-image {
+			width: 100%;
+		}
+
+		&-content {
+			border: 1px solid #d8d8d8;
+			padding: 0px 1.5rem;
+			margin-bottom: 1.9rem;
+		}
+
+		&-title {
+			font-size: $fs-xxl-large;
+			line-height: $lh-x-small;
+			margin-top: 14px;
+			width: 80%;
+
+			@include tablet {
+				height: 3.7rem;
+				width: 100%;
+			}
+
+			@include desktop {
+				font-size: $fs-x-huge;
+				width: 60%;
+			}
+		}
+
+		&-recipes {
+			margin-top: 2.2rem;
+			width: 7.8rem;
+			height: 1.7rem;
+			margin-bottom: 1.6rem;
+			border-radius: 3px;
+			border: 1px solid #000;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			border-radius: 3px;
+			border: 1px solid #000;
+			margin-left: auto;
+
+			@include desktop {
+				margin-top: 0;
+			}
+		}
+	}
+}

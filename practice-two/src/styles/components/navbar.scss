@@ -9,24 +9,24 @@
 	}
 
 	&__logo {
-		width: 110px;
+		width: toRem(110);
 
 		@include tablet {
-			width: 160px;
+			width: toRem(160);
 		}
 	}
 
 	&__icon {
 		display: flex;
 		align-items: center;
-		gap: 1.5rem;
+		gap: toRem(24);
 	}
 
 	&__navigation {
 		display: none;
 		flex-direction: column;
 		align-items: center;
-		gap: 3rem;
+		gap: toRem(48);
 
 		@include desktop {
 			display: flex;
@@ -36,11 +36,11 @@
 		&--mobile {
 			position: absolute;
 			right: 0;
-			top: 80px;
-			padding: 2rem;
+			top: toRem(80);
+			padding: toRem(32);
 			background: #b1e1f8;
-			border-top-left-radius: 30px;
-			border-bottom-left-radius: 30px;
+			border-top-left-radius: toRem(30);
+			border-bottom-left-radius: toRem(30);
 
 			@include desktop {
 				display: none;
@@ -62,8 +62,8 @@
 			background-image: url("../assets/images/header/arrow-down.svg");
 			background-position: right center;
 			background-repeat: no-repeat;
-			padding-left: 20px;
-			padding-right: 20px;
+			padding-left: toRem(20);
+			padding-right: toRem(20);
 		}
 
 		&__item:nth-child(4),
@@ -73,18 +73,18 @@
 	}
 
 	&__icon-search {
-		width: 27px;
-		height: 27px;
+		width: toRem(27);
+		height: toRem(27);
 	}
 
 	&__icon-avata {
-		width: 32px;
-		height: 32px;
+		width: toRem(32);
+		height: toRem(32);
 	}
 
 	&__icon-menu {
-		width: 24px;
-		height: 24px;
+		width: toRem(24);
+		height: toRem(24);
 	}
 
 	#check {

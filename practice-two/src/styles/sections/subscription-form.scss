@@ -17,9 +17,9 @@
 	&__title {
 		font-size: $fs-x-huge;
 		line-height: $lh-x-small;
-		margin-bottom: 1.1rem;
-		margin-top: 4.3rem;
-		padding: 0 1.8rem;
+		margin-bottom: toRem(18);
+		margin-top: toRem(69);
+		padding: 0 toRem(29);
 
 		@include tablet {
 			font-size: $fs-xxl-huge;
@@ -27,56 +27,57 @@
 	}
 
 	&__intro {
-		font-size: 15px;
+		font-size: toRem(15);
 		line-height: $lh-xs-medium;
 		font-family: $font-secondary;
-		margin-bottom: 1.25rem;
-		padding: 0 6.25rem;
+		margin-bottom: toRem(24);
+		padding: 0 toRem(100);
 
 		@include tablet {
 			font-size: $fs-xl-large;
 			line-height: $lh-medium;
-			padding: 0 9rem;
+			padding: 0 toRem(145);
 		}
 
 		@include desktop {
-			padding: 0 7rem;
+			padding: 0 toRem(112);
 		}
 	}
 
 	&__form {
 		display: flex;
 		flex-direction: column;
-		gap: 10px;
+		gap: toRem(10);
 
 		@include tablet {
 			display: flex;
 			flex-direction: row;
+			justify-content: center;
 			gap: 0;
 		}
+	}
 
-		&-input {
-			width: 100%;
-			height: 3rem;
-			border: none;
-			border-radius: 4px;
+	&__form-input {
+		height: toRem(48);
+		border: none;
+		border-radius: 4px;
 
-			@include tablet {
-				border-radius: 4px 0 0 4px;
-				height: 4.25rem;
-			}
+		@include tablet {
+			border-radius: toRem(4) 0 0 toRem(4);
+			width: toRem(500);
+			height: toRem(68);
 		}
 	}
 
 	&__desc {
 		font-size: $fs-x-small;
-		line-height: 1.5;
+		line-height: $lh-x-medium;
 		font-family: $font-secondary;
-		margin-bottom: 4.5rem;
-		padding: 0 6.25rem;
+		margin-bottom: toRem(72);
+		padding: 0 toRem(60);
 
 		@include tablet {
-			margin-top: 1rem;
+			margin-top: toRem(16);
 		}
 	}
 }

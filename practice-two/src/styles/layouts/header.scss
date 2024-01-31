@@ -1,11 +1,9 @@
 .header-section {
-	margin-top: 21px;
-	margin-bottom: 21px;
+	margin-top: toRem(21);
+	margin-bottom: toRem(21);
 
 	@include tablet {
-		margin-bottom: 60px;
-		margin-top: 27px;
+		margin-bottom: toRem(60);
+		margin-top: toRem(27);
 	}
 }
-
-

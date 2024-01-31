@@ -1,11 +1,11 @@
 .category {
 	&__title {
-		font-size: 24px;
+		font-size: toRem(24);
 		line-height: $lh-x-small;
-		margin-top: 3.3rem;
+		margin-top: toRem(54);
 
 		@include tablet {
-			font-size: $fs-x-huge;
+			font-size: toRem(36);
 		}
 	}
 
@@ -16,32 +16,27 @@
 	}
 
 	&__item {
-		margin-top: 2rem;
-		width: 30%;
+		margin-top: toRem(34);
+	}
+
+	&__image {
+		width: toRem(130);
 
 		@include tablet {
-			width: 26%;
+			width: toRem(160);
 		}
+	}
 
-		@include desktop {
-			width: 15%;
-		}
+	&__name {
+		display: flex;
+		justify-content: center;
+		margin-top: toRem(8);
+		font-family: $font-secondary;
+		font-size: $fs-small;
+		line-height: $lh-x-medium;
 
-		&-image {
-			width: 100%;
-		}
-
-		&-name {
-			display: flex;
-			justify-content: center;
-			margin-top: 8px;
-			font-family: $font-secondary;
-			font-size: $fs-small;
-			line-height: $lh-x-medium;
-
-			@include tablet {
-				font-size: $fs-large;
-			}
+		@include tablet {
+			font-size: $fs-large;
 		}
 	}
 }

@@ -7,79 +7,78 @@
 		flex-direction: row;
 	}
 
-	&__img {
-		width: 100%;
-		height: 100%;
-
-		@include desktop {
-			width: 60%;
-			height: 100%;
-		}
-	}
-
 	&__content {
 		display: flex;
 		flex-direction: column;
-		gap: 1.25rem;
+		gap: toRem(20);
 		background-color: #e4f1ff;
-		padding: 29px 24px 34px 24px;
-		border-radius: 0px 0px 16px 16px;
-		width: 100%;
+		padding: toRem(29) toRem(24) toRem(34) toRem(24);
+		border-radius: 0 0 toRem(16) toRem(16);
 
 		@include tablet {
 			display: flex;
-			padding: 50px 35px 34px 48px;
+			padding: toRem(50) toRem(35) toRem(34) toRem(48);
 		}
 
 		@include desktop {
-			padding: 151px 35px 35px 48px;
-			border-radius: 0px 16px 16px 0px;
-			width: 40%;
+			padding: toRem(151) toRem(35) toRem(35) toRem(48);
+			border-radius: 0 toRem(16) toRem(16) 0;
+			width: toRem(546);
+		}
+	}
+	
+	&__introduce {
+		display: flex;
+		gap: toRem(11);
+		font-family: $font-secondary;
+		font-size: toRem(10);
+		line-height: $lh-x-medium;
+
+		@include tablet {
+			font-size: $fs-small;
+		}
+	}
+
+	&__heading {
+		font-size: $fs-xxl-large;
+		width: toRem(188);
+		line-height: $lh-x-small;
+
+		@include tablet {
+			font-size: $fs-huge;
+			width: toRem(541);
 		}
 
-		&-introduce {
-			display: flex;
-			gap: 11px;
-			font-family: $font-secondary;
-			font-size: 10px;
-			line-height: $lh-x-medium;
+		@include desktop {
+			width: toRem(284);
+		}
+	}
+
+	&__description {
+		font-family: $font-secondary;
+		line-height: $lh-x-medium;
+		font-size: $fs-small;
+		padding-right: toRem(60);
+
+		@include tablet {
+			font-size: $fs-x-large;
+			width: toRem(450);
 		}
 
-		&-heading {
-			font-size: 30px;
-			width: 77%;
-			line-height: $lh-x-small;
-
-			@include tablet {
-				font-size: $fs-huge;
-				width: 95%;
-			}
+		@include desktop {
+			font-size: $fs-medium;
+			width: toRem(316);
+			padding-right: 0;
 		}
+	}
 
-		&-description {
-			font-family: $font-secondary;
-			line-height: $lh-x-medium;
-			width: 75%;
-
-			@include tablet {
-				font-size: $fs-small;
-				width: 77%;
-			}
-
-			@include desktop {
-				font-size: $fs-medium;
-				width: 83%;
-			}
-		}
-
-		&-next {
-			margin-left: auto;
-			width: 40px;
-			height: 40px;
-			background-color: $bg-color-primary;
-			background-image: url("../assets/images/banner/arrows-right.svg");
-			background-position: center;
-			background-repeat: no-repeat;
-		}
+	&__next {
+		margin-left: auto;
+		width: toRem(40);
+		height: toRem(40);
+		background-color: $bg-color-primary;
+		background-image: url("../assets/images/banner/arrows-right.svg");
+		background-position: center;
+		background-repeat: no-repeat;
 	}
 }

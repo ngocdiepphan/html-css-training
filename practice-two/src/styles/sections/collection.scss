@@ -1,6 +1,6 @@
 .collection {
 	&__list {
-		margin-top: 2.2rem;
+		margin-top: toRem(36);
 
 		@include tablet {
 			display: flex;
@@ -9,35 +9,47 @@
 		}
 	}
 
-	&__item {
-		@include tablet {
-			width: 49%;
-		}
-	}
-
 	&__image {
 		width: 100%;
+
+		@include tablet {
+			width: toRem(270);
+		}
+
+		@include desktop {
+			width: toRem(546);
+		}
 	}
 
 	&__content {
 		border: 1px solid #d8d8d8;
-		padding: 0px 1.5rem;
-		margin-bottom: 1.9rem;
+		padding: 0px toRem(24);
+		margin-bottom: toRem(32);
+
+		@include tablet {
+			width: toRem(270);
+		}
+
+		@include desktop {
+			width: toRem(546);
+		}
 	}
+
 	&__title {
 		font-size: 30px;
 		line-height: $lh-x-small;
-		margin-top: 14px;
-		width: 80%;
+		margin-top: toRem(14);
+		width: toRem(318);
 
 		@include tablet {
-			height: 3.7rem;
-			width: 100%;
+			height: toRem(60);
+			width: toRem(250);
 		}
 
 		@include desktop {
 			font-size: $fs-x-huge;
-			width: 60%;
+			width: toRem(340);
+			height: toRem(87);
 		}
 	}
 

@@ -1,21 +1,18 @@
 .container {
-	margin: 0 auto;
-	width: 96%;
-	max-width: 480px;
+	margin-left: toRem(12);
+	margin-right: toRem(12);
 
 	@include tablet {
-		margin: 0 auto;
-		width: 80%;
-		max-width: 768px;
+		margin-left: toRem(102);
+		margin-right: toRem(102);
 	}
 
 	@include desktop {
-		margin: 0 auto;
-		width: 95%;
-		max-width: 1200px;
+		margin-left: toRem(42);
+		margin-right: toRem(42);
 	}
 }
 
 .container-form {
-	width: 100%;
+	// width: 100%;
 }

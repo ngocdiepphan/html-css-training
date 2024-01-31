@@ -1,8 +1,8 @@
 .introduce {
 	&__title {
-		font-size: 24px;
+		font-size: toRem(24);
 		line-height: $lh-x-small;
-		margin-top: 3.3rem;
+		margin-top: toRem(38);
 
 		@include tablet {
 			font-size: $fs-x-huge;
@@ -17,83 +17,53 @@
 		}
 	}
 
-	&__list-item {
+	&__item {
 		display: flex;
 		flex-direction: column;
 
 		@include tablet {
-			margin-right: 25px;
+			margin-right: toRem(25);
+
 			&:last-child {
 				margin-right: 0;
 			}
 		}
 
-		&__image {
-			width: 100%;
-			margin-top: 2rem;
+
+	}
+	&__image {
+		margin-top: toRem(32);
+
+		@include tablet {
+			width: toRem(170);
 		}
 
-		&__rating {
-			display: flex;
-			gap: 5px;
-			margin-top: 13px;
-			margin-bottom: 19px;
-		}
-
-		&__rating-star {
-			background-image: url(../assets/images/introduce-food-item/star.svg);
-			width: 14px;
-			height: 14px;
-		}
-
-		&__name-food {
-			font-family: $font-secondary;
-			font-size: $fs-x-medium;
-			line-height: $lh-x-medium;
-			width: 100%;
-
-			@include tablet {
-				font-size: $fs-large;
-			}
+		@include desktop {
+			width: toRem(356);
 		}
 	}
 
-	&__item {
+	&__rating {
+		display: flex;
+		gap: toRem(5);
+		margin-top: toRem(13);
+		margin-bottom: toRem(19);
+	}
+
+	&__rating-star {
+		background-image: url(../assets/images/introduce-food-item/star.svg);
+		width: toRem(14);
+		height: toRem(14);
+	}
+
+	&__name-food {
+		font-family: $font-secondary;
+		line-height: $lh-x-medium;
+		width: toRem(250);
+
 		@include tablet {
-			margin-right: 25px;
-
-			&:last-child {
-				margin-right: 0;
-			}
-		}
-
-		&__image {
-			width: 100%;
-			margin-top: 2rem;
-		}
-
-		&__rating {
-			display: flex;
-			gap: 5px;
-			margin-top: 13px;
-			margin-bottom: 19px;
-		}
-
-		&__rating-star {
-			background-image: url(../assets/images/introduce-food-item/star.svg);
-			width: 14px;
-			height: 14px;
-		}
-
-		&__name-food {
-			font-family: $font-secondary;
-			font-size: $fs-x-medium;
-			line-height: $lh-x-medium;
-			width: 100%;
-
-			@include tablet {
-				font-size: $fs-large;
-			}
+			font-size: $fs-large;
+			width: toRem(160);
 		}
 	}
 }

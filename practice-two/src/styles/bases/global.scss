@@ -11,3 +11,7 @@ body {
   font-family: $font-primary;
 	word-wrap: break-word;
 }
+
+html {
+  font-size: calc(var(--default-font-size) * 1px);
+}

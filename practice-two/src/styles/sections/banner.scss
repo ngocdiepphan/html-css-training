@@ -81,5 +81,9 @@
 		background-position: center;
 		background-repeat: no-repeat;
 		cursor: pointer;
+
+		&:hover {
+			background-color: rgba(233, 75, 7, 0.242);
+		}
 	}
 }

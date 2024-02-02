@@ -1,6 +1,7 @@
 .navbar {
 	display: flex;
 	justify-content: space-between;
+	cursor: pointer;
 
 	@include desktop {
 		.checkbtn {
@@ -85,6 +86,7 @@
 	&__icon-menu {
 		width: toRem(24);
 		height: toRem(24);
+		cursor: pointer;
 	}
 
 	#check {

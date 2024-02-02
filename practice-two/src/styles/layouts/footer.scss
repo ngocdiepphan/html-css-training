@@ -153,6 +153,10 @@
 		width: toRem(20);
 		height: toRem(20);
 		cursor: pointer;
+
+		&:hover {
+			background-color: rgba(83, 80, 80, 0.153);
+		}
 	}
 
 	&__social-facebook {

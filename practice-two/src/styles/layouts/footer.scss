@@ -1,0 +1,213 @@
+.footer {
+	background-color: #f9f9f9;
+	padding-left: toRem(12);
+	padding-right: toRem(12);
+	display: flex;
+	flex-direction: column;
+
+	@include tablet {
+		padding-left: toRem(50);
+		padding-right: toRem(50);
+	}
+
+	@include desktop {
+		padding-left: toRem(42);
+		padding-right: toRem(102);
+	}
+
+	&__wrapper {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__logo {
+		margin-top: toRem(40);
+
+		@include tablet {
+			margin-top: toRem(72);
+		}
+	}
+
+	&__desc {
+		font-family: $font-secondary;
+		font-size: $fs-small;
+		line-height: $lh-x-medium;
+		color: $color-secondary;
+		margin-top: toRem(18);
+		margin-bottom: toRem(56);
+		width: toRem(362);
+
+		@include tablet {
+			width: toRem(287);
+			font-size: $fs-x-medium;
+		}
+
+		@include desktop {
+			width: toRem(370);
+		}
+	}
+
+	&__contact {
+		display: flex;
+		flex-direction: column;
+
+		@include tablet {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: flex-start;
+			gap: toRem(50);
+			margin-top: toRem(71);
+		}
+
+		@include desktop {
+			gap: toRem(103);
+		}
+	}
+
+	&__wrapper-contact {
+		display: flex;
+		align-items: center;
+		border-bottom: toRem(1) solid #e8e8e8;
+
+		&:hover {
+			border-bottom: toRem(2) solid $color-primary;
+		}
+
+		@include tablet {
+			display: block;
+			border-bottom: none;
+		}
+
+		@include tablet {
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+		}
+	}
+
+	&__title {
+		margin-top: toRem(13);
+		font-family: $font-secondary;
+		font-size: $fs-small;
+		margin-bottom: toRem(17);
+
+		@include tablet {
+			font-size: $fs-x-medium;
+		}
+	}
+
+	&__item {
+		display: none;
+		cursor: pointer;
+
+		&:hover {
+			color: #000;
+			font-weight: 600;
+		}
+
+		@include tablet {
+			display: block;
+			color: $color-secondary;
+			font-family: $font-secondary;
+			margin-bottom: toRem(14);
+		}
+	}
+
+	&__icon {
+		cursor: pointer;
+		margin-left: auto;
+
+		@include tablet {
+			display: none;
+		}
+	}
+
+	&__top {
+		display: flex;
+		flex-direction: column;
+
+		@include tablet {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			border-bottom: toRem(1) solid #e8e8e8;
+
+			&:hover {
+				border-bottom: toRem(1) solid $color-primary;
+			}
+		}
+	}
+
+	&__social {
+		display: flex;
+		gap: toRem(29);
+		margin-top: toRem(50);
+		margin-bottom: toRem(24);
+	}
+
+	&__social-icon {
+		display: inline-block;
+		background-position: center;
+		background-repeat: no-repeat;
+		width: toRem(20);
+		height: toRem(20);
+		cursor: pointer;
+	}
+
+	&__social-facebook {
+		background-image: url(../assets/images/footer/facebook.svg);
+	}
+
+	&__social-instagram {
+		background-image: url(../assets/images/footer/instagram.svg);
+	}
+
+	&__social-twitter {
+		background-image: url(../assets/images/footer/twitter.svg);
+	}
+
+	&__social-youtube {
+		background-image: url(../assets/images/footer/youtube.svg);
+	}
+
+	&__copyright {
+		font-family: $font-secondary;
+		font-size: $fs-x-small;
+		line-height: $lh-x-medium;
+		color: $color-secondary;
+		margin-bottom: toRem(24);
+	}
+
+	&__bottom {
+		display: flex;
+		flex-direction: column;
+
+		@include tablet {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			margin-top: toRem(27);
+		}
+	}
+
+	&__social-mobile {
+		display: flex;
+		gap: toRem(29);
+		margin-top: toRem(50);
+		margin-bottom: toRem(24);
+
+		@include tablet {
+			display: none;
+		}
+	}
+
+	&__social-desktop {
+		display: none;
+
+		@include tablet {
+			display: flex;
+			gap: toRem(30);
+		}
+	}
+}

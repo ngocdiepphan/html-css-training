@@ -20,6 +20,7 @@
 	&__item {
 		display: flex;
 		flex-direction: column;
+		cursor: pointer;
 
 		@include tablet {
 			margin-right: toRem(25);

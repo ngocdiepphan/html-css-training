@@ -15,6 +15,7 @@
 	&__food {
 		width: toRem(218);
 		margin-bottom: toRem(32);
+		cursor: pointer;
 
 		@include tablet {
 			width: toRem(180);

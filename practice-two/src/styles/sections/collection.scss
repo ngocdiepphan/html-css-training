@@ -68,6 +68,10 @@
 		margin-left: auto;
 		cursor: pointer;
 
+		&:hover {
+			background-color: #ffd8ca;
+		}
+
 		@include desktop {
 			margin-top: 0;
 		}

@@ -54,6 +54,10 @@
 		margin: toRem(30) auto toRem(96) auto;
 		display: flex;
 
+		&:hover {
+			background-color: #e4f1ff;
+		}
+
 		@include tablet {
 			font-size: $fs-x-large;
 			width: toRem(189);

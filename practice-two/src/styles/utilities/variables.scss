@@ -58,9 +58,9 @@ $default-font-size: 16;
 	}
 }
 
-@media screen and (min-width: $desktop) {
-	$default-font-size: 18;
-	:root {
-		--default-font-size: #{efault-font-size};
-	}
-}
+// @media screen and (min-width: $desktop) {
+// 	$default-font-size: 18;
+// 	:root {
+// 		--default-font-size: #{$default-font-size};
+// 	}
+// }

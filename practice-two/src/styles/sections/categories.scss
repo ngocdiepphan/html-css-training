@@ -3,6 +3,7 @@
 		font-size: toRem(24);
 		line-height: $lh-x-small;
 		margin-top: toRem(54);
+		margin-bottom: toRem(34);
 
 		@include tablet {
 			font-size: toRem(36);
@@ -10,9 +11,13 @@
 	}
 
 	&__list {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-between;
+		display: grid;
+		grid-template-columns: repeat(3,1fr);
+		grid-gap: toRem(24);
+
+		@include desktop {
+			grid-template-columns: repeat(6, 1fr);
+		}
 	}
 
 	&__item {
@@ -20,12 +25,8 @@
 		cursor: pointer;
 	}
 
-	&__image {
-		width: toRem(130);
-
-		@include tablet {
-			width: toRem(160);
-		}
+	&__img {
+		width: 100%;
 	}
 
 	&__name {
@@ -41,3 +42,4 @@
 		}
 	}
 }
+

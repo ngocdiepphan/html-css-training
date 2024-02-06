@@ -3,42 +3,27 @@
 		margin-top: toRem(36);
 
 		@include tablet {
-			display: flex;
-			flex-wrap: wrap;
-			justify-content: space-between;
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			grid-gap: toRem(24);
 		}
 	}
 
 	&__image {
 		width: 100%;
-
-		@include tablet {
-			width: toRem(270);
-		}
-
-		@include desktop {
-			width: toRem(546);
-		}
 	}
 
 	&__content {
 		border: 1px solid #d8d8d8;
 		padding: 0px toRem(24);
 		margin-bottom: toRem(32);
-
-		@include tablet {
-			width: toRem(270);
-		}
-
-		@include desktop {
-			width: toRem(546);
-		}
 	}
 
 	&__title {
 		font-size: 30px;
 		line-height: $lh-x-small;
 		margin-top: toRem(14);
+		width: toRem(318);
 		width: toRem(318);
 
 		@include tablet {

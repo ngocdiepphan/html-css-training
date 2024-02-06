@@ -13,6 +13,8 @@
 	@include desktop {
 		padding-left: toRem(42);
 		padding-right: toRem(102);
+		width: 1200px;
+    margin: 0 auto;
 	}
 
 	&__wrapper {

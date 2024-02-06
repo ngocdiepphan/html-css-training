@@ -13,7 +13,6 @@
 		@include tablet {
 			display: flex;
 			flex-direction: row;
-			justify-content: space-between;
 		}
 	}
 
@@ -23,23 +22,21 @@
 		cursor: pointer;
 
 		@include tablet {
-			margin-right: toRem(25);
+			margin-right: toRem(24);
 
 			&:last-child {
 				margin-right: 0;
 			}
 		}
+
+		@include desktop {
+			margin-right: toRem(25);
+			width: toRem(356);
+		}
 	}
 	&__image {
 		margin-top: toRem(32);
-
-		@include tablet {
-			width: toRem(170);
-		}
-
-		@include desktop {
-			width: toRem(356);
-		}
+		width: 100%;
 	}
 
 	&__rating {

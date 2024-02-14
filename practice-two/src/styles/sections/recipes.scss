@@ -22,15 +22,9 @@
 	&__food {
 		width: 100%;
 		margin-bottom: toRem(24);
-		cursor: pointer;
-	}
-
-	&__img {
-		width: 100%;
 	}
 
 	&__name {
-		font-family: $font-secondary;
 		font-size: $fs-small;
 		margin-top: toRem(11);
 		width: toRem(180);

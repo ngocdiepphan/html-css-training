@@ -45,7 +45,7 @@
 		line-height: $lh-x-small;
 
 		@include tablet {
-			font-size: $fs-huge;
+			font-size: $fs-x-huge;
 			width: toRem(541);
 		}
 

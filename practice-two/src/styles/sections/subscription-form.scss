@@ -3,15 +3,15 @@
 	flex-direction: column;
 	text-align: center;
 	background-color: #ffd8ca;
-	margin-top: 4rem;
-	padding: 0px 1rem;
+	margin-top: toRem(64);
+	padding: 0 toRem(16);
 
 	@include tablet {
-		padding: 0 6rem;
+		padding: 0 toRem(96);
 	}
 
 	@include desktop {
-		padding: 0 19.5rem;
+		padding: 0 toRem(312);
 	}
 
 	&__title {
@@ -60,7 +60,7 @@
 	&__form-input {
 		height: toRem(48);
 		border: none;
-		border-radius: 4px;
+		border-radius: toRem(4);
 
 		@include tablet {
 			border-radius: toRem(4) 0 0 toRem(4);

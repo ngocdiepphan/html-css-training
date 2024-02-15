@@ -4,13 +4,13 @@
 	}
 
 	&__content {
-		border: 1px solid #d8d8d8;
-		padding: 0px toRem(24);
+		border: toRem(1) solid #d8d8d8;
+		padding: 0 toRem(24);
 		margin-bottom: toRem(32);
 	}
-	
+
 	&__title {
-		font-size: 30px;
+		font-size: toRem(30);
 		line-height: $lh-x-small;
 		margin-top: toRem(14);
 		width: toRem(318);
@@ -29,17 +29,15 @@
 	}
 
 	&__recipes {
-		margin-top: 2.2rem;
-		width: 7.8rem;
-		height: 1.7rem;
-		margin-bottom: 1.6rem;
-		border-radius: 3px;
-		border: 1px solid #000;
+		margin-top: toRem(35);
+		width: toRem(125);
+		height: toRem(27);
+		margin-bottom: toRem(26);
+		border-radius: toRem(3);
+		border: toRem(1) solid #000;
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		border-radius: 3px;
-		border: 1px solid #000;
 		margin-left: auto;
 		cursor: pointer;
 

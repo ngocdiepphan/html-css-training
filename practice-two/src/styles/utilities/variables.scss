@@ -50,17 +50,3 @@ $default-font-size: 16;
 :root {
 	--default-font-size: #{$default-font-size};
 }
-
-@media screen and (min-width: $tablet) {
-	$default-font-size: 16;
-	:root {
-		--default-font-size: #{$default-font-size};
-	}
-}
-
-// @media screen and (min-width: $desktop) {
-// 	$default-font-size: 18;
-// 	:root {
-// 		--default-font-size: #{$default-font-size};
-// 	}
-// }

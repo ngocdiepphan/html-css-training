@@ -61,6 +61,7 @@
 		height: toRem(48);
 		border: none;
 		border-radius: toRem(4);
+    padding-left: toRem(20);
 
 		@include tablet {
 			border-radius: toRem(4) 0 0 toRem(4);

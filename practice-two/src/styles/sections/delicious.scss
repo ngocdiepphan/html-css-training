@@ -41,7 +41,11 @@
 
 		@include tablet {
 			font-size: $fs-large;
-			width: toRem(160);
+			width: toRem(192);
 		}
+
+    @include desktop {
+      width: 100%;
+    }
 	}
 }

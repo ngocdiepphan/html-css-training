@@ -37,11 +37,10 @@
 	}
 
 	&__name-food {
-		width: toRem(250);
+		width: 100%;
 
 		@include tablet {
 			font-size: $fs-large;
-			width: toRem(160);
 		}
 	}
 }

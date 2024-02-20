@@ -2,12 +2,17 @@
 	&__title {
 		font-size: toRem(24);
 		line-height: $lh-x-small;
-		margin-top: toRem(54);
-		margin-bottom: toRem(34);
+		margin-top: toRem(77);
+		margin-bottom: toRem(36);
 
 		@include tablet {
 			font-size: toRem(36);
+      margin-top: toRem(74);
 		}
+
+    @include desktop {
+      margin-top: toRem(54);
+    }
 	}
 
 	&__list {
@@ -21,7 +26,6 @@
 	}
 
 	&__item {
-		margin-top: toRem(34);
 		width: 100%;
 	}
 }

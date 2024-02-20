@@ -75,6 +75,7 @@
 		line-height: $lh-x-medium;
 		font-family: $font-secondary;
 		margin-bottom: toRem(72);
+    margin-top: toRem(16);
 		padding: 0 toRem(60);
 
 		@include tablet {

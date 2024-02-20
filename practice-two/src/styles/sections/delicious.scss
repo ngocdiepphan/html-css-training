@@ -3,10 +3,11 @@
 		font-size: toRem(24);
 		line-height: $lh-x-small;
 		margin-top: toRem(38);
-		margin-bottom: toRem(32);
+		margin-bottom: toRem(34);
 
 		@include tablet {
 			font-size: $fs-x-huge;
+      margin-top: toRem(61);
 		}
 	}
 
@@ -33,7 +34,7 @@
 	}
 
 	&__image {
-		margin-top: toRem(32);
+		width: 100%;
 	}
 
 	&__name-food {

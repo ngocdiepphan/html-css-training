@@ -1,6 +1,10 @@
 .collection {
+  &__title {
+    margin-top: toRem(62);
+    margin-bottom: toRem(34);
+  }
+
 	&__list {
-		margin-top: toRem(36);
 		width: 100%;
 
 		@include tablet {
@@ -12,9 +16,11 @@
 
 	&__item {
 		width: 100%;
+    margin-bottom: toRem(30);
 
 		@include tablet {
 			min-width: toRem(268);
+      margin-bottom: 0;
 		}
 	}
 }

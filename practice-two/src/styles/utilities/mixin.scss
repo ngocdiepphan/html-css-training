@@ -1,17 +1,17 @@
 @mixin desktop {
-  @media screen and (min-width: $desktop) {
+  @media screen and (min-width: $desktop) { // Media query for desktop screens with min-width equal to $desktop=1200px
     @content;
   }
 }
 
 @mixin tablet {
-  @media screen and (min-width: $tablet) {
+  @media screen and (min-width: $tablet) { // Media query for tablet screens with min-width equal to $tablet=768px
     @content;
   }
 }
 
 @mixin mobile {
-  @media screen and (min-width: $mobile) {
+  @media screen and (min-width: $mobile) { // Media query for mobile screens with min-width equal to $mobile=480px
     @content;
   }
 }

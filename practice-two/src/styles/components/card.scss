@@ -1,8 +1,7 @@
 .card {
-	display: flex;
-	flex-direction: column;
+	@include flex-column;
   gap: toRem(16);
-	cursor: pointer;
+	@include cursor;
 
 	&__image {
 		width: 100%;

@@ -15,3 +15,25 @@
     @content;
   }
 }
+
+// Mixin for applying flexbox with column direction.
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+// Mixin for applying flexbox with row direction.
+@mixin flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+// Mixin for applying border with specified width, style, and color.
+@mixin boder {
+  border: toRem(1) solid #000;
+}
+
+// // Mixin for setting cursor to pointer.
+@mixin cursor {
+  cursor: pointer;
+}

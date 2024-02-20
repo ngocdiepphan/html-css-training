@@ -2,8 +2,7 @@
 	background-color: #f9f9f9;
 	padding-left: toRem(12);
 	padding-right: toRem(12);
-	display: flex;
-	flex-direction: column;
+	@include flex-column;
 
 	@include tablet {
 		padding-left: toRem(50);
@@ -18,8 +17,7 @@
 	}
 
 	&__wrapper {
-		display: flex;
-		flex-direction: column;
+		@include flex-column;
 	}
 
 	&__logo {
@@ -50,12 +48,10 @@
 	}
 
 	&__contact {
-		display: flex;
-		flex-direction: column;
+		@include flex-column;
 
 		@include tablet {
-			display: flex;
-			flex-direction: row;
+			@include flex-row;
 			justify-content: space-between;
 			align-items: flex-start;
 			gap: toRem(50);
@@ -82,8 +78,7 @@
 		}
 
 		@include tablet {
-			display: flex;
-			flex-direction: column;
+			@include flex-column;
 			align-items: flex-start;
 		}
 	}
@@ -101,7 +96,7 @@
 
 	&__item {
 		display: none;
-		cursor: pointer;
+		@include cursor;
 
 		&:hover {
 			color: #000;
@@ -117,7 +112,7 @@
 	}
 
 	&__icon {
-		cursor: pointer;
+		@include cursor;
 		margin-left: auto;
 
 		@include tablet {
@@ -126,12 +121,10 @@
 	}
 
 	&__top {
-		display: flex;
-		flex-direction: column;
+		@include flex-column;
 
 		@include tablet {
-			display: flex;
-			flex-direction: row;
+			@include flex-row;
 			justify-content: space-between;
 			border-bottom: toRem(1) solid #e8e8e8;
 
@@ -154,7 +147,7 @@
 		background-repeat: no-repeat;
 		width: toRem(20);
 		height: toRem(20);
-		cursor: pointer;
+		@include cursor;
 
 		&:hover {
 			background-color: rgba(83, 80, 80, 0.153);
@@ -186,12 +179,10 @@
 	}
 
 	&__bottom {
-		display: flex;
-		flex-direction: column;
+		@include flex-column;
 
 		@include tablet {
-			display: flex;
-			flex-direction: row;
+			@include flex-row;
 			justify-content: space-between;
 			margin-top: toRem(27);
 		}

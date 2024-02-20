@@ -1,6 +1,5 @@
 .subscription {
-	display: flex;
-	flex-direction: column;
+	@include flex-column;
 	text-align: center;
 	background-color: #ffd8ca;
 	margin-top: toRem(64);
@@ -45,13 +44,11 @@
 	}
 
 	&__form {
-		display: flex;
-		flex-direction: column;
+		@include flex-column;
 		gap: toRem(10);
 
 		@include tablet {
-			display: flex;
-			flex-direction: row;
+			@include flex-row;
 			justify-content: center;
 			gap: 0;
 		}

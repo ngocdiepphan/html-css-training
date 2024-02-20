@@ -43,8 +43,8 @@
 
   &__load {
     font-family: $font-secondary;
-    cursor: pointer;
-    border: toRem(1) solid #000;
+    @include cursor;
+    @include boder;
     border-radius: toRem(3);
     justify-content: center;
     align-items: center;

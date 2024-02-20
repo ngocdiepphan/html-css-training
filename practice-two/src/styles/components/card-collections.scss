@@ -33,12 +33,12 @@
     width: toRem(125);
     height: toRem(27);
     border-radius: toRem(3);
-    border: toRem(1) solid #000;
+    @include boder;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: auto;
-    cursor: pointer;
+    @include cursor;
 
     &:hover {
       background-color: #ffd8ca;

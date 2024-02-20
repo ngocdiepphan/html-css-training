@@ -8,7 +8,7 @@
 		text-transform: uppercase;
 		height: toRem(48);
 		border-radius: toRem(4);
-		cursor: pointer;
+		@include cursor;
 
 		&:hover {
 			background-color: #fd4c0c;

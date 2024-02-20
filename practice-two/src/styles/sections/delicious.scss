@@ -13,8 +13,7 @@
 
 	&__list {
 		@include tablet {
-			display: flex;
-			flex-direction: row;
+			@include flex-row;
 		}
 	}
 

@@ -1,22 +1,18 @@
 .banner {
-	display: flex;
-	flex-direction: column;
+	@include flex-column;
 
 	@include desktop {
-		display: flex;
-		flex-direction: row;
+		@include flex-row;
 	}
 
 	&__content {
-		display: flex;
-		flex-direction: column;
+		@include flex-column;
 		gap: toRem(20);
 		background-color: #e4f1ff;
 		padding: toRem(29) toRem(24) toRem(34) toRem(24);
 		border-radius: 0 0 toRem(16) toRem(16);
 
 		@include tablet {
-			display: flex;
 			padding: toRem(50) toRem(35) toRem(34) toRem(48);
 		}
 
@@ -80,7 +76,7 @@
 		background-image: url("../assets/images/banner/arrows-right.svg");
 		background-position: center;
 		background-repeat: no-repeat;
-		cursor: pointer;
+		@include cursor;
 
 		&:hover {
 			background-color: rgba(233, 75, 7, 0.242);

@@ -1,60 +1,66 @@
 .recipes {
-	&__title {
-		font-size: $fs-x-huge;
-		line-height: $lh-x-small;
-	}
+  &__title {
+    font-size: $fs-x-huge;
+    line-height: $lh-x-small;
+    margin-top: toRem(53);
+    margin-bottom: toRem(34);
 
-	&__list {
-		margin-top: toRem(24);
-		display: grid;
-		grid-gap: toRem(24);
-		grid-template-columns: repeat(2, 1fr);
+    @include tablet {
+      margin-top: toRem(76);
+      margin-bottom: toRem(42);
+    }
+  }
 
-		@include tablet {
-			grid-template-columns: repeat(3, 1fr);
-		}
+  &__list {
+    display: grid;
+    grid-gap: toRem(24);
+    grid-template-columns: repeat(2, 1fr);
 
-		@include desktop {
-			grid-template-columns: repeat(4, 1fr);
-		}
-	}
+    @include tablet {
+      grid-template-columns: repeat(3, 1fr);
+    }
 
-	&__food {
-		width: 100%;
-		margin-bottom: toRem(24);
-	}
+    @include desktop {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
 
-	&__name {
-		font-size: $fs-small;
-		margin-top: toRem(11);
-		width: toRem(180);
+  &__food {
+    width: 100%;
+    margin-bottom: toRem(24);
+  }
 
-		@include tablet {
-			font-size: $fs-x-large;
-			width: 100%;
-		}
-	}
+  &__name {
+    font-size: $fs-small;
+    margin-top: toRem(11);
+    width: toRem(180);
 
-	&__load {
-		font-family: $font-secondary;
-		cursor: pointer;
-		border: toRem(1) solid #000;
-		border-radius: toRem(3);
-		justify-content: center;
-		align-items: center;
-		width: toRem(124);
-		height: toRem(31);
-		margin: toRem(30) auto toRem(96) auto;
-		display: flex;
+    @include tablet {
+      font-size: $fs-x-large;
+      width: 100%;
+    }
+  }
 
-		&:hover {
-			background-color: #e4f1ff;
-		}
+  &__load {
+    font-family: $font-secondary;
+    cursor: pointer;
+    border: toRem(1) solid #000;
+    border-radius: toRem(3);
+    justify-content: center;
+    align-items: center;
+    width: toRem(124);
+    height: toRem(31);
+    margin: toRem(30) auto toRem(96) auto;
+    display: flex;
 
-		@include tablet {
-			font-size: $fs-x-large;
-			width: toRem(189);
-			height: toRem(45);
-		}
-	}
+    &:hover {
+      background-color: #e4f1ff;
+    }
+
+    @include tablet {
+      font-size: $fs-x-large;
+      width: toRem(189);
+      height: toRem(45);
+    }
+  }
 }

@@ -7,14 +7,12 @@
     border: toRem(1.5) solid #d8d8d8;
     border-top: none;
     overflow: hidden;
-    padding: 0 toRem(24);
-    margin-bottom: toRem(32);
+    padding: toRem(14) toRem(24) toRem(24) toRem(26);
   }
 
   &__title {
     font-size: toRem(30);
     line-height: $lh-x-small;
-    margin-top: toRem(14);
     width: toRem(318);
     width: toRem(318);
 
@@ -34,7 +32,6 @@
     margin-top: toRem(35);
     width: toRem(125);
     height: toRem(27);
-    margin-bottom: toRem(26);
     border-radius: toRem(3);
     border: toRem(1) solid #000;
     display: flex;

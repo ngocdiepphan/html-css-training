@@ -1,6 +1,7 @@
 .card {
 	display: flex;
 	flex-direction: column;
+  gap: toRem(16);
 	cursor: pointer;
 
 	&__image {
@@ -10,8 +11,6 @@
 	&__rating {
 		display: flex;
 		gap: toRem(5);
-		margin-top: toRem(13);
-		margin-bottom: toRem(19);
 	}
 
 	&__rating-star {

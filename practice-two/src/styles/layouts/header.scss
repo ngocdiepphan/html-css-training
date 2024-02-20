@@ -1,9 +1,10 @@
 .header-section {
-	margin-top: toRem(21);
-	margin-bottom: toRem(21);
+  width: 100%;
+  height: toRem(76);
+  padding: toRem(21) 0;
 
-	@include tablet {
-		margin-bottom: toRem(60);
-		margin-top: toRem(27);
-	}
+  @include tablet {
+    height: toRem(160);
+    padding: toRem(37) 0 0 0;
+  }
 }

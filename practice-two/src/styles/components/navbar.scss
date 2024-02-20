@@ -1,7 +1,7 @@
 .navbar {
 	display: flex;
 	justify-content: space-between;
-	cursor: pointer;
+	@include cursor;
 
 	@include desktop {
 		.checkbtn {
@@ -30,8 +30,7 @@
 		gap: toRem(48);
 
 		@include desktop {
-			display: flex;
-			flex-direction: row;
+			@include flex-row;
 		}
 
 		&--mobile {
@@ -86,7 +85,7 @@
 	&__icon-menu {
 		width: toRem(24);
 		height: toRem(24);
-		cursor: pointer;
+		@include cursor;
 	}
 
 	#check {

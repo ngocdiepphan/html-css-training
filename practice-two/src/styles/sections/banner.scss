@@ -60,18 +60,12 @@
 			font-size: $fs-x-large;
 			width: toRem(450);
 		}
-
-		@include desktop {
-			font-size: $fs-medium;
-			width: toRem(316);
-			padding-right: 0;
-		}
 	}
 
 	&__next {
 		margin-left: auto;
-		width: toRem(40);
-		height: toRem(40);
+		width: 40px;
+		height: 40px;
 		background-color: $bg-color-primary;
 		background-image: url("../assets/images/banner/arrows-right.svg");
 		background-position: center;

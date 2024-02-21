@@ -19,7 +19,7 @@
 		@include desktop {
 			padding: toRem(151) toRem(35) toRem(35) toRem(48);
 			border-radius: 0 toRem(16) toRem(16) 0;
-			width: toRem(546);
+			min-width: toRem(465);
 		}
 	}
 

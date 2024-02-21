@@ -35,7 +35,6 @@
 		@include tablet {
 			font-size: $fs-xl-large;
 			line-height: $lh-medium;
-			padding: 0 toRem(145);
 		}
 
 		@include desktop {

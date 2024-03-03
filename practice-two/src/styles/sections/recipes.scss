@@ -127,10 +127,11 @@
 
   &__img-mail {
     @include cursor;
+    width: toRem(105);
+    height: toRem(34);
 
     @include tablet {
       width: toRem(144);
-      height: toRem(34);
     }
   }
 }

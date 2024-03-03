@@ -20,4 +20,12 @@
 			border-radius: 0 toRem(4) toRem(4) 0;
 		}
 	}
+
+  &__favorite {
+    width: toRem(16);
+    height: toRem(16);
+    border: toRem(1)  solid #000000;
+    background-color: #fff;
+    @include cursor;
+  }
 }

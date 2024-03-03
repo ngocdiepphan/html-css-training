@@ -64,3 +64,73 @@
     }
   }
 }
+
+.recipe-pages {
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 20px;
+  }
+
+  &__mailbox {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  &__title {
+    font-size: toRem(24);
+    line-height: $lh-x-small;
+
+    @include tablet {
+      font-size: toRem(36);
+    }
+  }
+
+  &__describe {
+    font-family: $font-secondary;
+    font-size: toRem(10);
+    line-height: $lh-x-medium;
+    margin-bottom: toRem(15);
+
+    @include tablet {
+      max-width: toRem(350);
+      font-size: toRem(15);
+    }
+
+    @include desktop {
+      max-width: toRem(820);
+    }
+  }
+
+  &__wrapper {
+    @include flex-column;
+    margin-bottom: toRem(36);
+
+    @include tablet {
+      @include flex-row;
+      justify-content: space-between;
+      margin-bottom: toRem(62);
+    }
+  }
+
+  &__text {
+    line-height: $lh-x-medium;
+    font-size: toRem(9);
+    @include tablet {
+      display: none;
+    }
+  }
+
+  &__img-mail {
+    @include cursor;
+
+    @include tablet {
+      width: toRem(144);
+      height: toRem(34);
+    }
+  }
+}
